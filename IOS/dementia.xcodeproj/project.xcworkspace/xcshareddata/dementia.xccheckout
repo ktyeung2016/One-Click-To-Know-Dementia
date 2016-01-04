@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5BC4535E-7E22-4901-8200-06F3FBC81384</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dementia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA8C132DE9B8397B1715267230F180B00F95D671</key>
+		<string>ssh://192.168.201.21/home/gitsource/dementia/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/dementia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA8C132DE9B8397B1715267230F180B00F95D671</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://192.168.201.21/home/gitsource/dementia/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA8C132DE9B8397B1715267230F180B00F95D671</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA8C132DE9B8397B1715267230F180B00F95D671</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dementia</string>
+		</dict>
+	</array>
+</dict>
+</plist>
