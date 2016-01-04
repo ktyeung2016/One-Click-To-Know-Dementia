@@ -1,0 +1,47 @@
+//
+//  dementia-Prefix.pch
+//  dementia
+//
+//
+
+#ifndef dementia_dementia_Prefix_pch
+#define dementia_dementia_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DataManager/JDDataManager+API.h"
+#import "DataManager/DBAttributes.h"
+#import "HMLocalization/HMLocalization.h"
+#import "Toast/UIView+Toast.h"
+#import "UINavigationItem+iOS7Spacing/UINavigationItem+iOS7Spacing.h"
+
+/* Game Question Number */
+#define GameQuesionNumberToNext 10
+
+/* Text Size */
+
+#define FontSizeLarge(largeSize) ([[[JDDataManager sharedInstance] returnFontSize] isEqualToString:@"Large"]) ? largeSize : (largeSize - 4.0f)
+
+/* Version */
+
+#define IsIOS8 [[[UIDevice currentDevice] systemVersion] floatValue] > 8.0
+
+/* Localization */
+
+#define LocalizedString(keyString) [[HMLocalization sharedInstance] localizedStringForKey:keyString]
+#define CurrentLanguage [[HMLocalization sharedInstance] activeLanguage]
+#define LanguageForDataAttribute [[[HMLocalization sharedInstance] activeLanguage] lowercaseString]
+
+/* Alert View */
+
+#define ShowAlertView(alertTitle, alertMessage, alertDelegate, alertOtherButtons, alertTag) UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:alertTitle message:alertMessage delegate:alertDelegate cancelButtonTitle:nil otherButtonTitles:nil]; for (NSString *otherButtonTitle in alertOtherButtons) {[alertView addButtonWithTitle:otherButtonTitle];} [alertView setTag:alertTag]; [alertView show];
+
+#define ShowAlertViewNormal(alertTitle, alertMessage, alertDelegate, alertCancelButton, alertOtherButtons, alertTag) UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:alertTitle message:alertMessage delegate:alertDelegate cancelButtonTitle:alertCancelButton otherButtonTitles:alertOtherButtons, nil]; [alertView setTag:alertTag]; [alertView show];
+
+/* Toast Activity Indicator */
+
+#define ShowToastActivity [self.view makeToastActivity]
+#define HideToastActivity [self.view hideToastActivity]
+
+#endif
