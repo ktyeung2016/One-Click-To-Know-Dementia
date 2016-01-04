@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#FBDC9C"
+	android:paddingLeft="8dp" >
+	<ImageView
+		android:id="@+id/marker"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:scaleType="centerInside"
+		android:src="@drawable/marker2_socres"
+		android:visibility="invisible" />
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="15"
+		android:gravity="center" >
+		<TextView
+			android:id="@+id/lblListItem"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="5"
+			android:paddingBottom="5dp"
+			android:paddingTop="5dp"
+			android:textColor="#000000"
+			android:textSize="?attr/font_small" />
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:scaleType="centerInside"
+			android:src="@drawable/btn_next_socres"
+            android:contentDescription="@string/linkButton"/>
+	</LinearLayout>
+</LinearLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/list_item.xml -->

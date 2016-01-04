@@ -1,0 +1,291 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="2" >
+			<ImageView
+				android:id="@+id/qweqeqe"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:scaleType="fitXY"
+				android:src="@drawable/actionbar" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentRight="true" >
+				<ImageButton
+					android:id="@+id/back"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/backButton"/>
+				<TextView
+					android:id="@+id/title"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="3"
+					android:gravity="center"
+					android:text="@string/findroot"
+					android:textColor="#FFFFFF"
+					android:textSize="?attr/font_small"
+					android:textStyle="bold" />
+				<ImageButton
+					android:id="@+id/menu"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/menuButton"/>
+			</LinearLayout>
+		</RelativeLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="20"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="20"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="19"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:id="@+id/topbarlayout"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="0.5"
+						android:background="#ffffff"
+						android:gravity="center"
+						android:paddingLeft="10dp" >
+						<TextView
+							android:id="@+id/textView1"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="2"
+							android:text="@string/howtopaly"
+							android:textSize="?attr/font_small" />
+						<ImageView
+							android:id="@+id/laststep"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/btn_back" />
+						<TextView
+							android:id="@+id/stagenumber"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:gravity="center"
+							android:text="1/12"
+							android:textSize="?attr/font_small" />
+						<ImageView
+							android:id="@+id/nextstep"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/btn_next" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1.5"
+						android:orientation="vertical" >
+						<TextView
+							android:id="@+id/question"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:gravity="center"
+							android:text="@string/guessit"
+							android:textSize="?attr/font_xxlarge" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="5.5"
+						android:orientation="vertical" >
+						<RelativeLayout
+                            android:id="@+id/gameArea"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="3.5"
+							android:gravity="center" >
+							<ImageView
+								android:id="@+id/question"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/game3_lv2_q001_e001" />
+							<ImageView
+								android:id="@+id/rorw"
+								android:layout_width="200dp"
+								android:layout_height="200dp"
+								android:layout_alignParentBottom="true"
+								android:layout_alignParentRight="true"
+								android:layout_marginRight="9dp"
+								android:src="@drawable/tick"
+								android:visibility="gone" />
+						</RelativeLayout>
+						<LinearLayout
+                            android:id="@+id/ansContainer"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1.5"
+							android:paddingBottom="10dp"
+							android:paddingLeft="10dp"
+							android:paddingRight="10dp"
+							android:paddingTop="10dp" >
+							<RelativeLayout
+								android:id="@+id/ans1"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c1"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/game3_e001" />
+							</RelativeLayout>
+							<RelativeLayout
+								android:id="@+id/ans2"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/game3_e003" />
+							</RelativeLayout>
+							<RelativeLayout
+								android:id="@+id/ans3"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c3"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/game3_e002" />
+							</RelativeLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#BFDA44"
+						android:paddingTop="10dp" >
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1" >
+							<ImageView
+								android:id="@+id/tips"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_notice" />
+						</LinearLayout>
+						<LinearLayout
+                            android:id="@+id/heartContainer"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="3.98" >
+							<ImageView
+								android:id="@+id/g3h5"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h4"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h3"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h2"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h1"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1" >
+							<ImageView
+								android:id="@+id/demo"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_dome" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/overlayImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" /></RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/game3demo.xml -->

@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/homepagebg"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="11.5"
+		android:orientation="vertical" >
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="6"
+			android:scaleType="centerInside"
+			android:src="@drawable/logo" />
+		<ImageView
+			android:id="@+id/imageView2"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="10"
+			android:scaleType="centerInside"
+			android:src="@drawable/aoldman" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1" >
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="10"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="4" >
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="6.5"
+				android:gravity="center" >
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="5"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<ImageButton
+						android:id="@+id/imageButton1"
+						android:layout_width="wrap_content"
+						android:layout_height="0dp"
+						android:layout_weight="2"
+						android:background="@null"
+						android:scaleType="centerInside"
+						android:src="@drawable/braingmelogo"
+                        android:contentDescription="@string/braingame" />
+					<TextView
+						android:id="@+id/textView1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:gravity="center"
+						android:text="@string/braingame"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="5"
+					android:gravity="center"
+					android:orientation="vertical" >
+					<ImageButton
+						android:id="@+id/mylocation"
+						android:layout_width="wrap_content"
+						android:layout_height="0dp"
+						android:layout_weight="2"
+						android:background="@null"
+						android:scaleType="centerInside"
+						android:src="@drawable/mylocation2_2"
+                        android:contentDescription="@string/mylocation" />
+					<TextView
+						android:id="@+id/textView1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:gravity="center"
+						android:text="@string/mylocation"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/callmyfmy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/callurfmy"
+                        android:contentDescription="@string/callfmy" />
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/callfmy"
+                        android:textSize="?attr/font_small" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/oneTouch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/oneTouchImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@null"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/callurfmy"
+                        android:contentDescription="@string/callfmy" />
+                    <TextView
+                        android:id="@+id/oneTouchText"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/callfmy"
+                        android:textSize="?attr/font_small" />
+                </LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.5" >
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="2"
+			android:background="#DEEB82" >
+			<ImageView
+				android:id="@+id/imageView3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:src="@drawable/jclogo" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="4"
+			android:orientation="vertical" >
+			<ImageView
+				android:id="@+id/ads"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:scaleType="fitXY" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/activity_homepage2.xml -->

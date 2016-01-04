@@ -1,0 +1,358 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="2" >
+			<ImageView
+				android:id="@+id/qweqeqe"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:scaleType="fitXY"
+				android:src="@drawable/actionbar" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentRight="true" >
+				<ImageButton
+					android:id="@+id/back"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/backButton"/>
+				<TextView
+					android:id="@+id/title"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="3"
+					android:gravity="center"
+					android:text="@string/findroot"
+					android:textColor="#FFFFFF"
+					android:textSize="?attr/font_small"
+					android:textStyle="bold" />
+				<ImageButton
+					android:id="@+id/menu"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/menuButton"/>
+			</LinearLayout>
+		</RelativeLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="20"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="20"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="19"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="0.5"
+						android:orientation="vertical"
+						android:paddingLeft="5dp" >
+						<TextView
+							android:id="@+id/qnum"
+							android:layout_width="60dp"
+							android:layout_height="match_parent"
+							android:background="@drawable/game_numberofq"
+							android:gravity="center"
+							android:text="20"
+							android:textColor="#ffffff" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1.5"
+						android:orientation="vertical" >
+						<TextView
+							android:id="@+id/textView3"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:gravity="center"
+							android:text="@string/guessit"
+							android:textSize="?attr/font_xxlarge" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="5.5"
+						android:orientation="vertical" >
+						<RelativeLayout
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="3.5"
+							android:gravity="center" >
+							<ImageView
+								android:id="@+id/question"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/game3_lv2_q854_e2412x" />
+							<ImageView
+								android:id="@+id/rorw"
+								android:layout_width="200dp"
+								android:layout_height="200dp"
+								android:layout_alignParentBottom="true"
+								android:layout_alignParentRight="true"
+								android:layout_marginRight="9dp"
+								android:src="@drawable/tick"
+								android:visibility="gone" />
+						</RelativeLayout>
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1.5"
+							android:paddingBottom="10dp"
+							android:paddingLeft="10dp"
+							android:paddingRight="10dp"
+							android:paddingTop="10dp" >
+							<RelativeLayout
+								android:id="@+id/ans1"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c1"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+							</RelativeLayout>
+							<RelativeLayout
+								android:id="@+id/ans2"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+							</RelativeLayout>
+							<RelativeLayout
+								android:id="@+id/ans3"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1" >
+								<ImageView
+									android:id="@+id/imageView2"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+								<ImageView
+									android:id="@+id/c3"
+									android:layout_width="match_parent"
+									android:layout_height="match_parent"
+									android:src="@drawable/bg_game3choice" />
+							</RelativeLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#BFDA44"
+						android:paddingTop="10dp" >
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1" >
+							<ImageView
+								android:id="@+id/tips"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_notice" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="3.98" >
+							<ImageView
+								android:id="@+id/g3h5"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h4"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h3"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h2"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+							<ImageView
+								android:id="@+id/g3h1"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="1"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_heart" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1" >
+							<ImageView
+								android:id="@+id/demo"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:scaleType="centerInside"
+								android:src="@drawable/icon_dome" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent" >
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<RelativeLayout
+		android:id="@+id/numberquestionlayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:alpha="0.9"
+			android:background="#ffffff" >
+		</RelativeLayout>
+		<TextView
+			android:id="@+id/qnum2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:background="@drawable/game_numberofq"
+			android:gravity="center"
+			android:paddingLeft="10dp"
+			android:text="20"
+			android:textColor="#ffffff"
+			android:textSize="50dp" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/levelupg3"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="0dp"
+				android:layout_weight="2" >
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="20"
+				android:orientation="vertical" >
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:alpha="0.9"
+					android:background="#ffffff" >
+				</RelativeLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="vertical"
+					tools:context="${packageName}.${activityClass}" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="9"
+						android:gravity="center"
+						android:orientation="vertical"
+						android:paddingLeft="10dp"
+						android:paddingRight="10dp" >
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="@drawable/bg_gamemarksboard"
+							android:gravity="center"
+							android:orientation="vertical" >
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="@string/cong"
+								android:textColor="#A13155"
+								android:textSize="50sp" />
+							<TextView
+								android:id="@+id/congmsg123321"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="TextView"
+								android:textSize="?attr/font_xsmall" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:gravity="center"
+						android:orientation="vertical"
+						android:paddingBottom="5dp" >
+						<Button
+							android:id="@+id/enter"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="@drawable/btn"
+							android:text="@string/enter"
+							android:textColor="#ffffff"
+							android:textSize="?attr/font_small" />
+					</LinearLayout>
+				</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/game_three_1.xml -->

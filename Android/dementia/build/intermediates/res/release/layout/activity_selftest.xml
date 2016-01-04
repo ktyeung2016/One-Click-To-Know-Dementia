@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="2" >
+		<ImageView
+			android:id="@+id/qweqeqe"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentBottom="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/actionbar" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true" >
+			<ImageButton
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/backButton" />
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="3"
+				android:gravity="center"
+				android:text="@string/selfas"
+				android:textColor="#FFFFFF"
+				android:textSize="?attr/font_small"
+				android:textStyle="bold" />
+			<ImageButton
+				android:id="@+id/menu"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/menuButton" />
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="5.5"
+			android:orientation="vertical" >
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:text="@string/tenfeatures"
+				android:textColor="#03736B"
+				android:textSize="?attr/font_xlarge"
+				android:textStyle="bold"
+                android:focusable="true"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="49.5"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="5.2"
+				android:background="#ffffff"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="4.5"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+                    android:focusable="true">
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center|left"
+						android:text="@string/num1"
+						android:textColor="#217069"
+						android:textStyle="bold" />
+					<TextView
+						android:id="@+id/qnum"
+						android:layout_width="29dp"
+						android:layout_height="28dp"
+						android:background="@drawable/questionnumber"
+						android:gravity="center"
+						android:text="1"
+						android:textColor="#ffffff"
+						android:textSize="20sp" />
+					<TextView
+						android:id="@+id/textView4"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center|left"
+						android:text="@string/num2"
+						android:textColor="#217069"
+						android:textStyle="bold" />
+				</LinearLayout>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="11"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:text="@string/selftopic"
+					android:textColor="#405F3D"
+					android:textSize="?attr/font_medium"
+                    android:focusable="true"/>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="29.7"
+					android:gravity="center"
+					android:orientation="vertical"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="23"
+						android:background="@drawable/selftestresultboard"
+						android:gravity="center"
+						android:orientation="vertical"
+						android:paddingLeft="15dp"
+						android:paddingRight="15dp"
+						android:paddingTop="10dp"
+                        android:focusable="true">
+						<LinearLayout
+							android:layout_width="wrap_content"
+							android:layout_height="match_parent"
+							android:orientation="vertical" >
+							<TextView
+								android:id="@+id/question"
+								android:layout_width="wrap_content"
+								android:layout_height="0dp"
+								android:layout_weight="0.09"
+								android:text="容易忘記近期發生的事情"
+								android:textSize="?attr/font_xsmall" />
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="0dp"
+								android:layout_weight="0.09"
+								android:text="@string/example"
+								android:textSize="?attr/font_xsmall" />
+							<TextView
+								android:id="@+id/a1"
+								android:layout_width="wrap_content"
+								android:layout_height="0dp"
+								android:layout_weight="0.09"
+								android:text="\u2022經常忘記剛發生的事"
+								android:textSize="?attr/font_xsmall" />
+							<TextView
+								android:id="@+id/a2"
+								android:layout_width="wrap_content"
+								android:layout_height="0dp"
+								android:layout_weight="0.09"
+								android:text="\u2022經常重複相同提問"
+								android:textSize="?attr/font_xsmall" />
+							<TextView
+								android:id="@+id/a3"
+								android:layout_width="wrap_content"
+								android:layout_height="0dp"
+								android:layout_weight="0.09"
+								android:text="\u2022經常忘記赴約"
+								android:textSize="?attr/font_xsmall" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="5"
+						android:orientation="vertical" >
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/buttonlayout"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:background="#BFDA44"
+				android:paddingTop="10dp" >
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+				<Button
+					android:id="@+id/yes"
+					android:layout_width="0dp"
+					android:layout_height="46dp"
+					android:layout_weight="3.98"
+					android:background="@drawable/btnyes"
+					android:gravity="center"
+					android:paddingLeft="10dp"
+					android:text="@string/yes"
+					android:textColor="#ffffff" />
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+				<Button
+					android:id="@+id/no"
+					android:layout_width="0dp"
+					android:layout_height="46dp"
+					android:layout_weight="4.02"
+					android:background="@drawable/btnno"
+					android:gravity="center"
+					android:paddingLeft="10dp"
+					android:text="@string/no"
+					android:textColor="#ffffff" />
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/activity_selftest.xml -->

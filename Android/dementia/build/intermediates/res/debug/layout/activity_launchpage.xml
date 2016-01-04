@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="10" >
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="10" >
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="70"
+			android:scaleType="centerInside"
+			android:src="@drawable/jclogo" />
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="10" >
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="15"
+		android:orientation="vertical" >
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="10" >
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="10" >
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="70"
+			android:background="@drawable/launchpagetextbox"
+			android:gravity="center"
+			android:text="@string/ownname" />
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="10" >
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="5"
+		android:orientation="vertical" >
+	</LinearLayout>
+</LinearLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/activity_launchpage.xml -->

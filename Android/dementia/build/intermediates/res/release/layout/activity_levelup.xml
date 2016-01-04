@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:orientation="vertical"
+	tools:context="${packageName}.${activityClass}" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="9"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bg_gamemarksboard"
+			android:gravity="center"
+			android:orientation="vertical" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/cong"
+				android:textColor="#A13155"
+				android:textSize="50sp" />
+			<TextView
+				android:id="@+id/congmsg"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TextView" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:paddingBottom="5dp" >
+		<Button
+			android:id="@+id/enter"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/btn"
+			android:text="@string/enter"
+			android:textColor="#ffffff"
+			android:textSize="?attr/font_small" />
+	</LinearLayout>
+</LinearLayout><!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/layout/activity_levelup.xml -->

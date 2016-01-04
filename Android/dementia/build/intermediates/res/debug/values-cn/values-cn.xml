@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/proj/jccpa/source_code/AndroidStudio/Dementia/dementia/src/main/res/values-cn/strings.xml -->
+    <eat-comment/>
+    <string-array name="f1">
+		<item>全部</item>
+		<item>轻度认知障碍</item>
+		<item>初期患者</item>
+		<item>中期患者</item>
+		<item>晚期患者</item>
+		<item>照顾者服务</item>
+	</string-array>
+    <string-array name="f2">
+		<item>全部</item>
+		<item>港岛</item>
+		<item>九龙</item>
+		<item>新界</item>
+		<item>离岛</item>
+	</string-array>
+    <string-array name="fakeans">
+		<item>星期一</item>
+		<item>星期二</item>
+		<item>星期三</item>
+		<item>星期四</item>
+		<item>星期五</item>
+		<item>星期六</item>
+		<item>星期日</item>
+	</string-array>
+    <string-array name="game1tipsarray">
+		<item>您有十秒时间记下要买的物品</item>
+		<item>这题目能暂时分散您的注意力，让本游戏能真正训练你的短期记忆</item>
+		<item>游戏开始时你会有5个心，全部用完後会结格束游戏</item>
+		<item/>
+		<item>每次只能选一种，选错会扣一个心！当5个心用完便会结束游戏！</item>
+		<item>选过的不能再选，重选亦会扣一个心！</item>
+		<item>货架页下方有提示按钮，可看已买物品！</item>
+		<item/>
+		<item>买完所有的东西便过关！连续答对10题便可提升难度，难度越高，分数越高。</item>
+	</string-array>
+    <string-array name="game2tipsarray">
+		<item>游戏开始时你会有5个心，全部用完後会结格束游戏</item>
+		<item>按着下方图往上拉</item>
+		<item>放在阴影上</item>
+		<item>如果想要提示，可按下方！便可获得提示。</item>
+		<item>填上正确答案後，按确定。</item>
+		<item>如果位置正确，并会跳到下一题。如答错便会扣心。</item>
+		<item>如果位置不正确，便会扣心，并会跳到下一题。</item>
+		<item>连续答对10题便可提升难度，难度越高，分数越高。</item>
+	</string-array>
+    <string-array name="game3tipsarray">
+		<item>游戏开始时你会有5个心，全部用完後会结格束游戏</item>
+		<item>请从下方选出正确答案</item>
+		<item>答错扣一个心</item>
+		<item>按下左下方提示图案，可减去其中一个错误图形</item>
+		<item/>
+		<item>连续答对10题便可提升难度，难度越高，分数越高。</item>
+	</string-array>
+    <string-array name="game4tipsarray">
+		<item>游戏开始时你会有5个心，全部用完後会结格束游戏</item>
+		<item>按开始进行游戏</item>
+		<item>点下格子变成绿色</item>
+		<item>注意不要点错</item>
+		<item>重复点同一格可以把它变回白色</item>
+		<item>按左下重新开始</item>
+		<item>完成後按确定</item>
+		<item>如果答案有错便会扣一个心</item>
+		<item>如果答案正确便会进入下一题</item>
+		<item>连续答对10题便可提升难度，难度越高，分数越高。</item>
+	</string-array>
+    <string-array name="game5tipsarray">
+		<item>游戏开始时你会有5个心，全部用完後会结格束游戏</item>
+		<item>按开始进行游戏</item>
+		<item>请填上购买物品的总价钱</item>
+		<item>再按确定</item>
+		<item>如果答案正确，会请你计算在钱包内馀下多少钱。如答错便会扣心，并会跳到下一题。</item>
+		<item>请你计算在钱包内馀下多少钱</item>
+		<item>如果答案正确，并会跳到下一题。如答错便会扣心。</item>
+		<item>填上正确答案後，按确定。</item>
+		<item>连续答对10题便可提升难度，难度越高，分数越高。</item>
+	</string-array>
+    <string-array name="hotline_array">
+        <item>「记忆在线」热线服务</item>
+        <item>999紧急求助电话</item>
+        <item>社会福利署</item>
+        <item>长者安居协会</item>
+        <item>珍爱生命长者热线</item>
+        <item>基督教家庭服务中心</item>
+        <item>向晴热线</item>
+    </string-array>
+    <string-array name="hotline_num_array">
+        <item>26366323</item>
+        <item>999</item>
+        <item>23432255</item>
+        <item>23388312</item>
+        <item>23820881</item>
+        <item>27876865</item>
+        <item>18288</item>
+    </string-array>
+    <string-array name="mapdemo">
+		<item>点击联络家人</item>
+		<item>点击新增家庭成员</item>
+		<item>输入家人姓名</item>
+		<item>输入家人关系</item>
+		<item>输入家人电话</item>
+		<item>输入家人电邮</item>
+		<item>输入家人备注</item>
+		<item>拍摄或选择家人相片</item>
+		<item>按完成</item>
+		<item>可上下移动选择联络人</item>
+	</string-array>
+    <string-array name="refreshOption">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="selftest10content">
+		<item>\u2022出现较大的情绪起伏</item>
+		<item>\u2022产生疑惑和焦虑感</item>
+		<item>\u2022经常缺乏安全感</item>
+	</string-array>
+    <string-array name="selftest1content">
+		<item>\u2022经常忘记刚发生的事</item>
+		<item>\u2022经常重复相同提问</item>
+		<item>\u2022经常忘记赴约</item>
+	</string-array>
+    <string-array name="selftest2content">
+		<item>\u2022不能自行处理财务</item>
+		<item>\u2022专注力下降</item>
+		<item>\u2022需要更长时间做熟悉事情</item>
+	</string-array>
+    <string-array name="selftest3content">
+		<item>\u2022准备午晚餐出现困难</item>
+		<item>\u2022经常忘记如何前往常去的地方</item>
+		<item>\u2022经常忘记如何进行熟悉活动</item>
+	</string-array>
+    <string-array name="selftest4content">
+		<item>\u2022经常忘记时间丶日期丶季节</item>
+		<item>\u2022经常出现迷路情况</item>
+		<item>\u2022难以掌握时间感</item>
+	</string-array>
+    <string-array name="selftest5content">
+		<item>\u2022阅读出现困难</item>
+		<item>\u2022辨别距离远近有困难</item>
+		<item>\u2022误认镜中倒影为另一个人</item>
+	</string-array>
+    <string-array name="selftest6content">
+		<item>\u2022经常未能清晰地自我表达</item>
+		<item>\u2022经常无法找到正确的词汇</item>
+		<item>\u2022难以与人长时间对话</item>
+	</string-array>
+    <string-array name="selftest7content">
+		<item>\u2022经常随处乱放物品</item>
+		<item>\u2022经常无法寻回乱放的物品</item>
+		<item>\u2022怀疑乱放的物品是被偷走</item>
+	</string-array>
+    <string-array name="selftest8content">
+		<item>\u2022经常危险地横过马路</item>
+		<item>\u2022减少对仪表的注重</item>
+		<item>\u2022经常花钱买不必要物品</item>
+	</string-array>
+    <string-array name="selftest9content">
+		<item>\u2022经常拒绝参与社交活动</item>
+		<item>\u2022对喜欢的事物失去兴趣</item>
+		<item>\u2022对工作或家务失去兴趣</item>
+	</string-array>
+    <string-array name="tipsarray">
+		<item>长青一同动脑筋，\n玩玩游戏最开心！</item>
+		<item>家有一老是个宝，\n得你关心活更好。</item>
+		<item>天天勤力做运动，\n身心社灵皆健康！</item>
+		<item>陪伴长者散散步，\n身心健康可做到。</item>
+		<item>假日一齐去旅行，\n长者开心好醒神。</item>
+		<item>多去中心识朋友，\n维持社交又开心！</item>
+		<item>长者心情好郁闷？\n听听音乐松一松。</item>
+		<item>时常开怀笑一笑，\n世界变得好美妙。</item>
+		<item>长者如果很紧张，\n一个拥抱暖洋洋。</item>
+		<item>温柔关心与问候，\n有你陪伴不会愁。</item>
+		<item>催促责备会伤人，\n一句说话一伤痕。</item>
+		<item>用心聆听多沟通，\n长青同乐更幸福。</item>
+		<item>善用能力多尝试，\n天天生活有新意。</item>
+		<item>生活细节让他试，\n一起共行有意思。</item>
+		<item>毋忘关爱与尊重，\n共行时光满笑容。</item>
+		<item>日常生活小训练，\n更有信心过每天。</item>
+		<item>适量提示与支持，\n建立自信很容易。</item>
+		<item>情绪不稳总有时，\n温柔关心不会迟。</item>
+		<item>每天一点小活动，\n快乐健脑更轻松。</item>
+		<item>规律生活要培养，\n晚上睡眠更绵长。</item>
+		<item>日间活动不打盹，\n晚上睡得甜又香。</item>
+		<item>陈年往事常回味，\n耐心聆听添温情。</item>
+		<item>拍抓扭扯摸东西，\n感官活动多姿采。</item>
+		<item>拾荒囤积劝不听，\n减少收藏要合力。</item>
+		<item>梳洗如厕要劝导，\n培养习惯免烦恼。</item>
+		<item>游走总会有理由，\n寻人寻宝寻出路。</item>
+		<item>忧心忡忡寻寻寻，\n聆听陪伴助安心。</item>
+		<item>无聊游走停不了，\n有益活动添意义。</item>
+		<item>新居新装新家俬，\n导向提示尽心思。</item>
+		<item>贴心的家居布置，\n归属的感觉倍增。</item>
+		<item>行为问题很常见，\n防患未然为上策。</item>
+		<item>行为问题很常见，\n结识同伴互支持。</item>
+		<item>照顾团队在左右，\n家人朋友齐参与。</item>
+		<item>问题行为的诱因，\n身体精神与环境。</item>
+		<item>处理行为首目标，\n减缓次数与困扰。</item>
+		<item>无缘无故发脾气，\n真挚关爱乃良药。</item>
+		<item>沟通理解能力降，\n当心语气和动作。</item>
+		<item>错误用词会伤人，\n责駡责怪莫出口。</item>
+		<item>身体原因致躁动，\n或因炎症肚子痛。</item>
+		<item>妄念幻觉黄昏症，\n辅导用药取平衡。</item>
+		<item>家务原来能健脑，\n尽量去做更健康。</item>
+		<item>时限之内要完成，\n训练专注可达到。</item>
+		<item>乐器编织和语言，\n不断学习是锻练。</item>
+		<item>训练专注与反应，\n电脑游戏很方便。</item>
+		<item>买卖游戏考计算，\n数算辅币练专注。</item>
+		<item>辨认物品比价钱，\n逛街练脚又练脑。</item>
+		<item>长期记忆要操练，\n书法编织都很好。</item>
+		<item>天天日照半小时，\n延缓衰退很容易。</item>
+		<item>绘画剪贴小手工，\n动手用脑又轻松。</item>
+		<item>做本人生故事集，\n日後聊天是件宝。</item>
+		<item>遛狗喂鱼梳猫毛，\n日日去做可用脑。</item>
+		<item>插花剪草种蔬果，\n园艺消闲又动脑。</item>
+		<item>摺衣擦桌抹碗碟，\n简单家务是训练。</item>
+		<item>拨接电话要练习，\n嘘寒问暖表关心。</item>
+		<item>月历之中寻今天，\n训练记性与认知。</item>
+		<item>年月日时要常知，\n何妨一天讲几遍？</item>
+		<item>家中有个记事板，\n自寻答案很好玩。</item>
+		<item>梳妆打扮选衣服，\n动手动脑保尊严。</item>
+		<item>日日书法半小时，\n训练专注与协调。</item>
+		<item>分豆摘菜剥栗子，\n训练专注又开心。</item>
+		<item>科技运用日日新，\n轻松护理至安心。</item>
+		<item>留意长者步履变，\n慎防跌倒要留神。</item>
+		<item>离床警报通知快，\n协助长者防跌倒。</item>
+		<item>厕所扶手不可少，\n家居安全最重要。</item>
+		<item>地上杂物常整理，\n预防跌倒又安心。</item>
+		<item>带氧运动常常做，\n伸展筋骨保体能。</item>
+		<item>经常动脑与思考，\n益智健脑保智能。</item>
+		<item>鼓励长者能做到，\n维持能力增自信。</item>
+		<item>护理需求日日变，\n以创意，\n应万变。</item>
+		<item>辅助器具变化多，\n善用可保自信心。</item>
+		<item>特制衣服助护理，\n细心关注显关怀。</item>
+		<item>地址电话卡旁身，\n预防走失免忧心。</item>
+		<item>透视柜门看得见，\n寻找物件更容易。</item>
+		<item>不同位置加提示，\n长者生活更容易。</item>
+		<item>常被水呛要留神，\n预防哽塞意外生。</item>
+		<item>留意转变早计划，\n减轻压力至轻松。</item>
+		<item>长者行为显需要，\n细心思考易解决。</item>
+		<item>多鼓励，\n少怪责。</item>
+		<item>多了解，\n多沟通。</item>
+		<item>多聆听，\n不催促。</item>
+		<item>情绪改变要注意，\n加强沟通最重要。</item>
+		<item>食物色彩要斑烂，\n增加食欲身体好。</item>
+		<item>小食多餐助消化，\n协助如厕效果佳。</item>
+		<item>定时如厕做得好，\n减低失禁自尊强。</item>
+		<item>定时定量去服药，\n治疗疾病身体好。</item>
+		<item>口腔卫生确重要，\n合适牙齿不可少。</item>
+		<item>脚部护理做得好，\n细菌滋生可减少。</item>
+		<item>合适鞋款要注重，\n步履稳定可防跌。</item>
+		<item>足够营养够全面，\n不但健康更活脑。</item>
+		<item>生活作息如定时，\n日夜不安可减少。</item>
+		<item>常常沟通及关爱，\n护理程序更轻松。</item>
+		<item>护理质素要做好，\n减少疾病降风险。</item>
+		<item>多多观察寻病徵，\n及早发现可治疗。</item>
+		<item>身体不适亮警号，\n及早治疗减痛苦。</item>
+		<item>视力随年而下降，\n定时检测是必须。</item>
+		<item>言语功能多留意，\n进食吞咽莫忽视。</item>
+		<item>喂食技巧多不同，\n方法错误易哽塞。</item>
+		<item>自理能力须保持，\n适切协助保尊严。</item>
+		<item>耳听八方确重要，\n辅助器材不可少。</item>
+		<item>定时覆诊及滙报，\n确保治疗是适切。</item>
+		<item>维护自尊虽重要，\n适时介入保安全。</item>
+		<item>日日步行半个钟，\n心情愉快更轻松。</item>
+		<item>长者痛症难忍耐，\n及早介入要留神。 </item>
+		<item>步行能力常有变，\n评估确是有需要。</item>
+		<item>长者跌倒要提防，\n恒常运动可预防。</item>
+		<item>运动有个伴，\n安全又开心。</item>
+		<item>运动休息要平衡，\n过度疲劳意外生。</item>
+		<item>每日都要拉拉筋，\n关节灵活更开心。</item>
+		<item>使用合适助行器，\n安全省力更安心。</item>
+		<item>红肿痛热要留意，\n如有需要即求医。</item>
+		<item>适量运动已足够，\n循序渐进莫强求。</item>
+		<item>照顾工作压力大，\n关爱自己亦重要。</item>
+		<item>照顾工作压力大，\n莫要全数自己做。</item>
+		<item>照顾工作或漫长，\n长远计划不可少。</item>
+		<item>松一松，\n笑一笑，\n很快又是新一天！</item>
+		<item>照顾工作天天做，\n毋忘放松免过劳。 </item>
+		<item>私人时间很重要，\n莫要全日伴身边。 </item>
+		<item>照顾长者身心劳，\n个人嗜好减疲劳。 </item>
+		<item>长者情况或有变，\n照顾配合要应变。 </item>
+		<item>照顾责任一同分，\n家人彼此更开心。</item>
+		<item>冥想放松与内观，\n日日练习能静心。</item>
+		<item>社区资源伴你行，\n开口得助很容易。</item>
+		<item>病情转变难避免，\n宽心接受很重要。</item>
+		<item>常保宽心面带笑，\n放松心情过每天。</item>
+		<item>如若照顾压力大，\n寻求辅导莫迟疑。</item>
+		<item>情绪修炼不容易，\n幽默能解心里愁。</item>
+		<item>了解压力找支援，\n善待自己我做到！</item>
+		<item>常常运动减压力，\n轻轻松松助护理。</item>
+		<item>找找亲友常倾诉，\n娱乐消闲减压力。</item>
+		<item>爱家人，\n由爱自己开始！</item>
+		<item>社区资源巧运用，\n照顾困难不用怕。</item>
+		<item>身心社灵全重要，\n寻求专职齐参与。</item>
+		<item>放松心情正能量，\n一家齐心必事成。</item>
+		<item>退化後期问题多，\n正面拆解必有因。</item>
+		<item>学习承担确重要，\n懂得放松也需要。</item>
+		<item>人生天天问题多，\n正面能量不可少。</item>
+		<item>欣赏代替指错误，\n数算优点常赞美。</item>
+		<item>时间地点常忘掉，\n仍认得我已感恩。</item>
+		<item>批判争拗伤和气，\n真摰接纳爱常存。</item>
+		<item>过度期望添愁绪，\n平衡期望心常安。</item>
+		<item>跟出跟入莫无奈，\n同心同行情常在。</item>
+	</string-array>
+    <string name="aboutApp">关于此程式</string>
+    <string name="aboutAppContent"><![CDATA[<h2>背景</h2>
+
+<p>「脑退化一按知」流动应用程式（简称「此程式」）由香港中文大学管理的赛马会耆智园（简称「耆智园」）委托开发。耆智园是一所非牟利的脑退化症综合服务中心，自2000年6月起投入服务。耆智园除了以社交心理的照顾模式为患者发展不同服务，并积极进行培训及研究外，更致力提升家属照顾者的照顾知识及技巧，促进他们关注自己的身心灵健康。为善用科技支援家属照顾者及对健脑有兴趣之长者，耆智园得到政府资讯科技总监办公室「开发数码共融流动应用程式资助计划」资助开发此程式，方便家属寻找所需服务，以及让长者进行自我训练。</p>
+
+<h2>联络我们</h2>
+<p>本程式已采用无障碍设计。如对内容有任何查询，或在使用上有任何意见，欢迎告诉我们。</p>
+<p>电话号码：<a href="tel:+85226366323">2636 6323</a></p>
+<p>电邮地址：<a href="mailto:info@jccpahk.com">info@jccpahk.com</a></p>
+<p>耆智园网站：<a href="http://www.jccpa.org.hk">http://www.jccpa.org.hk</a></p>
+
+<h2>鸣谢</h2>
+<table>
+<tr><td>资助程式开发：</td><td>政府资讯科技总监办公室</td></tr>
+<tr><td></td><td>「开发数码共融流动应用程式资助计划」</td></tr>
+<tr><td>程式设计及开发：</td><td>WestcomZivo Ltd</td></tr>
+</table>
+
+<h2>使用条款</h2>
+<p>欢迎使用「脑退化一按知」流动应用程式（简称「本程式」）。本程式由赛马会耆智园（简称「耆智园」）委托开发。请细阅下列使用条款，以保障您的利益。一旦您按下「同意」键，即表示您使用本程式时，您同意并愿意遵守以下所有规定，并遵守相关法律规定。 <br />
+本服务受香港的法律及标准监管，以及按香港特别行政区的法律及标准理解，您明白并同意有关服务内容与阁下所处之国家或地区的标准及法律会有所不同。如您为无行为能力人士，应由其法定代理人为之，若为限制行为能力人士，应得法定代理人之同意。 </p>
+<ol>
+  <li>费用</li>
+<ul>
+  <li>本程式为免费程式，惟使用本程式所需之相关设备（如：行动装置及其他相关装置）及所需之费用（如：流动上网费用、通讯费用等）均由使用者自行负担。 </li>
+</ul>
+  <li>注册
+    <ul>
+      <li>在使用本程式前不必注册。如使用者选择注册，在注册过程中必须填入完整且正确的资料。 </li>
+    </ul>
+  </li>
+  <li>行为规范与义务</li>
+<ul>
+  <li>使用者使用本程式时，须遵守相关法律及一切使用网际网路之相关规定。使用者同​​意并保证不利用本程式从事​​侵害他人权益或违法之行为，包括但不限于：
+    <ul>
+      <li>侵害他人名誉、隐私权、营业秘密、商标权、著作权、专利权、其他智慧财产权及其他权利；</li>
+      <li>冒用他人名义使用本程式；</li>
+      <li>上载、张贴、传输或散布任何含有病毒或任何对电脑或流动装置之软、硬体产生中断、破坏或限制功能之程式码之资料；</li>
+      <li>从事不法交易行为或上载、张贴、公布或传送虚假不实、引人犯罪、诽谤、侮辱、具威胁性、攻击性、不雅、猥亵、不实、违反公共秩序或善良风俗或其他不法之讯息；</li>
+      <li>滥发广告邮件、垃圾邮件、连锁信、违法之多层次传销讯息等；</li>
+      <li>干扰或中断本程式或伺服器或连结本程式之网路，或不遵守连结至本程式之相关需求、程序、政策或规则等，包括但不限于：使用任何设备、软体或刻意规避本服务之排除自动搜寻之标头（robot exclusion headers）；</li>
+      <li>其他耆智园有正当理由认为不适当之行为。 </li>
+      </ul>
+    </li>
+  <li>使用者了解本程式可能含有使数位资料得以被保护之安全元件，使用该等资料必须依本程式或提供该内容予本程式之内容提供者所定的使用规则。使用者不得试图破坏或规避任何内含于本程式之使用规则。任何未经合法授权之重制、发行、散布或公开展示本程式所提供之​​资料之全部或一部，均被严格禁止。 </li>
+</ul>
+  <li>个人资料保护</li>
+<ul>
+  <li>您在注册帐号及使用本程式时，本程式会搜集您的个人资料，伺服器会自行记录相关路径，包括您使用连线设备的IP位址、使用时间、轨迹纪录等资料，相关资料会以不记名方式用于资料库管理、调查、统计与研究分析。有关结果将以汇总并且不能辨认到个人身份的形式用于符合相关守则的研究报告内。您的资料也可能以不能辨认到个人身份的形式被用于管理机构、团体或单位的报告内。 </li>
+  <li>本程式不会搜集您在本程式中输入的第三者（如：亲属）之联络资料。有关资料只记录于您的行动装置中。当您透过本程式向第三者发送讯息，相关资料上传至伺服器后会被自动删除。 </li>
+  <li>您可自行选择是否提供资料及所提供资料的完整性，但本程式某些功能、服务或活动必须根据您所提供的资料方得使用。 </li>
+  <li>您有责任妥善保管您的行动装置的机密安全，并为一切使用该行动装置进行的授权或未获授权之恰当及不当行动负全部责任。 </li>
+  <li>耆智园会把您的个人资料储存于设有保安措施之伺服器内，以尽力保障您的个人资料。除非有法定需要，耆智园不会在未取得用户同意的情况下，以能辨认到个人身份的形式转移任何用户个人资料予其他第三者。耆智园不会将您的个人资料、用户名称及轨迹纪录资料给予任何广告商，亦不会电邮无关的垃圾邮件给您。 </li>
+</ul>
+  <li>版权声明
+    <ul>
+      <li>本程式的所有内容，包括但不限于图像、图案、商标、设计、资料、编辑、标题、代号、声音资料、影像资料、应用和演示方法及组合皆属独有产权，并由耆智园持有所有相关版权及专属权利，受到知识产权的保护，亦即是受到香港特别行政区法律的版权法令及国际版权法规所保护，来源码仅供同业交流用途。用户有权下载部分内容作为自身使用之用，任何未经耆智园书面同意之其他用途，包括：修改、复制、分发、销售、转让、演示或其他未获耆智园书面同意之任何用途均严格禁止。耆智园保留所有法律追究权利。 </li>
+      <li>使用者同意不对本程式​​任何部分（包括：内容、广告、游戏及帐号等）之使用或存取，进行重制、拷贝、出售、交易、转售或作任何商业目的之使用。 </li>
+    </ul>
+  </li>
+
+  <li>免责声明
+    <ul>
+      <li>本程式之内容仅作为提供网上资讯与参考用途。本程式提供之问卷、测验及分析等资料仅以提供网上资讯为目的，不能作为自我诊断或治疗用途。本程式之内容及服务有其限制，无法取代合资格之医护人员的诊断、建议、临床评估或治疗。如果您对自己或家人的情况或本程式​​之资讯有疑问，请向合资格之医护人员查询。 </li>
+      <li>对于本程式所提供之​​各项服务，均仅依各项服务当时之功能及现况提供使用，对于使用者之特定要求或需求，包括但不限于定位服务之准确性、定位服务之准时性、定时位置报告之准确性、定时位置报告之准时性、速度、安全性、可靠性及不会断线和出错等，耆智园不负任何担保或保证责任，亦不会对任何因使用本程式而引起或与此关连或在其他方面有联系的损失或损害负责。 </li>
+      <li>本程式之资讯基于现有资料及资源写成，并提供连结连接往本程式无法控制之外部网站或资源，以供参考及方便使用者。本程式之服务条款并不适用于该等网站。耆智园亦不会对该等网站及其内容负任何责任。您了解并同意自己需为使用外部网站或资源之资讯、内容或服务负全部责任。 </li>
+      <li>耆智园承诺力求内容的准确性及完整性，但不会对内容有错误或遗漏承担责任，亦不就此承担任何损失及赔偿责任。 </li>
+      <li>本程式不保证资料于传送过程均可靠且正确无误，亦不保证所储存或所传送之邮件、档案或资料之安全性、可靠性、完整性、正确性及不会断线和出错等。用户应对传送过程中或储存时之邮件、档案或资料遗失或系统损坏自负完全责任。 </li>
+      <li>因本程式所提供的服务之使用，所造成之任何直接、间接、附带、特别、衍生性、警戒性或惩罚性之损害，耆智园不负任何责任，即使为本应用程式曾明白建议之注意事项亦同。 </li>
+      <li>您同意香港特别行政区法庭对于任何关于使用条款的争论及追讨有关的审判权，任何相​​关法律程序均需于香港特别行政区进行。如本服务条款中任何一项失效或受到争议，亦不影响其他条款之有效性。 </li>
+    </ul>
+  </li>
+  <li>广告
+    <ul>
+      <li>使用者在本程式中浏览到的所有广告内容、文字与图片之说明、展示样品或其他销售资讯，均由各该广告商、产品与服务的供应商所设计与提出。使用者对于广告之正确性与可信度应自行斟酌与判断。耆智园仅​​接受委托予以刊登，不对前述广告负担保​​责任。 </li>
+    </ul>
+  </li>
+
+  <li>系统维护及服务中断
+    <ul>
+      <li>耆智园将尽力维护本程式之正常运作，因进行例行性维护、搬迁、更换、升级、或维修，致服务暂停或中断时，将于暂停或中断前，以公告方式告知使用者。 </li>
+      <li>耆智园有权在没有发出通知的情况下，于任何时间修改本程式之资讯、暂停或移除本程式及服务、暂时或永久移除您提供的资讯，而毋须向您或第三者负上责任。耆智园有权在没有发出通知的情况下，于任何时间及不时修改本程式之内容及资讯，而毋须向您或第三者负责。您同意耆智园毋需为任何用户通讯或个人化设定之时效、删除、未予储存或传递错误而向您或第三者负责任。 </li>
+    </ul>
+  </li>
+
+  <li>条款变更
+    <ul>
+      <li>耆智园或会修订、改动或更改服务条款，亦可随时停止有关条款而无需预先发出通知。使用者于任何服务条款内容与使用规范修改或变动后继续使用本服务，即视为使用者同意本服务该等修改或变动之内容。 </li>
+      <li>如果使用者违反了本服务使用规则，本服务保留随时暂时停止提供服务、或终止提供服务之权利。 </li>
+      <li>耆智园有可能变更、或停止提供服务之全部或一部，使用者不可以因此而要求赔偿或补偿。使用者同​​意若本程式之使用被终止或限制时，耆智园对使用者或任何第三者均不承担责任。 </li>
+    </ul>
+  </li>
+</ol>
+]]></string>
+    <string name="accessibilityInfo">无障碍声明</string>
+    <string name="accessibilityInfoContent"><![CDATA[<p>本程式采用了无障碍设计。如在使用上有任何查询或意见，请致电或发送电邮与我们联络。</p>
+<p>电话号码 : <a href="tel:+85226366323">2636 6323</a></p>
+<p>电邮地址：<a href="mailto:info@jccpahk.com">info@jccpahk.com</a></p>
+]]></string>
+    <string name="aftershpping">计算付款后尚余金额</string>
+    <string name="age">年龄</string>
+    <string name="agreefirst">请先同意条款及细则\n
+才能使用本应用程式</string>
+    <string name="app_id">1394052324188820</string>
+    <string name="app_name">"Dementia "</string>
+    <string name="area">地区</string>
+    <string name="backButton">返回</string>
+    <string name="big">大</string>
+    <string name="boy">男</string>
+    <string name="braingame">健脑游戏</string>
+    <string name="buyer">天生购物狂</string>
+    <string name="callfmy">联络家人</string>
+    <string name="caltotal">算出物品总值</string>
+    <string name="cancel">取消</string>
+    <string name="choice">选择</string>
+    <string name="choosephoto">相片档案</string>
+    <string name="clearfmy">清除所有家庭成员资料</string>
+    <string name="cleargamedata">清除所有排行榜资料</string>
+    <string name="clicktheitem">点选要买的物品</string>
+    <string name="close">关闭</string>
+    <string name="cn">简</string>
+    <string name="cong">恭喜您！</string>
+    <string name="congmsg1">完成本难度所有题目\n现在晋升至普通难度</string>
+    <string name="congmsg2">完成本难度所有题目\n现在晋升至一般难度</string>
+    <string name="congmsg3">完成本难度所有题目\n现在晋升至困难难度</string>
+    <string name="delete">删除</string>
+    <string name="diff">难度</string>
+    <string name="diff1">普通</string>
+    <string name="diff2">一般</string>
+    <string name="diff3">困难</string>
+    <string name="difff">难度</string>
+    <string name="email">电邮</string>
+    <string name="enter">确定</string>
+    <string name="example">例如：</string>
+    <string name="exit">离开</string>
+    <string name="findroot">寻根究底</string>
+    <string name="finish">完成</string>
+    <string name="fontsize">文字大小</string>
+    <string name="fullmode">完整</string>
+    <string name="gamemode">游戏</string>
+    <string name="gamestart">开始</string>
+    <string name="gender">性别</string>
+    <string name="get">获得</string>
+    <string name="girl">女</string>
+    <string name="gosite">按此前往网站</string>
+    <string name="gps">卫星定位</string>
+    <string name="guessit">选出黄格内图案</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="homepage">主页</string>
+    <string name="hotline">紧急求助热线</string>
+    <string name="hotline_num">26366323</string>
+    <string name="howtoaddfmy">如何新增联络人</string>
+    <string name="howtopaly">游戏玩法</string>
+    <string name="item">物品</string>
+    <string name="itemtotalprice">物品总计：</string>
+    <string name="knowledge">知识宝库</string>
+    <string name="lang">语言</string>
+    <string name="lasttime">你上次完成了</string>
+    <string name="linkButton">按此进入详情</string>
+    <string name="loading">载入中</string>
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="mapfunctionstep">如何新增联络人</string>
+    <string name="mapfunctionstep1">点击联络家人</string>
+    <string name="mark">分</string>
+    <string name="marks">得分</string>
+    <string name="memory">记忆方块</string>
+    <string name="memoryonline">致电赛马会耆智园「记忆在线」</string>
+    <string name="menuButton">菜单</string>
+    <string name="mindcal">心算大挑战</string>
+    <string name="mode">模式</string>
+    <string name="mylocation">我的位置</string>
+    <string name="name">姓名</string>
+    <string name="newafmymember">新增家庭成员</string>
+    <string name="news">最新消息</string>
+    <string name="no">没有出现</string>
+    <string name="noRemarks">无备注</string>
+    <string name="nofeature">你的家人尚未出现明显脑退化症徵兆，建议他维持健康的生活习惯，延缓退化速度，例如：常做健脑活动丶维持健康饮食丶保持运动习惯丶确保睡眠充足丶保持社交活跃丶常保心境开朗等。
+
+但如果你有怀疑，可以致电专为脑退化症患者提供服务的机构查询，寻求更专业的协助，例如：赛马会耆智园「记忆在线」，电话：2636 6323。</string>
+    <string name="nogps">没有GPS讯号</string>
+    <string name="nonetwork">没有网络</string>
+    <string name="normalsetting">一般设定</string>
+    <string name="nowmoney">你现在有</string>
+    <string name="nowstillmoney">你现在还有</string>
+    <string name="num1">第</string>
+    <string name="num2">题</string>
+    <string name="num3">位</string>
+    <string name="ownname">本流动应用程式为\n政府资讯科技总监办公室\n「开发数码共融流动应用程式资助计划」\n资助项目</string>
+    <string name="partone">第一部分</string>
+    <string name="periodStatus">现时选项为60分钟，可选择卫星定位更新隔距</string>
+    <string name="peroid">隔距</string>
+    <string name="peroidStatus1">现时选项为</string>
+    <string name="peroidStatus2">,可选择卫星定位更新隔距</string>
+    <string name="phone">电话</string>
+    <string name="pichints">对像图示介绍</string>
+    <string name="picturesetting">图片库设定</string>
+    <string name="playag">重试</string>
+    <string name="plzemail">请输入电邮</string>
+    <string name="plzinputage">请输入年龄</string>
+    <string name="plzinputname">请输入用户名称</string>
+    <string name="plzinputrightname">请输入正确用户名称</string>
+    <string name="plzlogin">请先登入才能使用此功能</string>
+    <string name="plzname">请输入姓名</string>
+    <string name="plzphone">请输入电话</string>
+    <string name="plzphoto">请加入相片</string>
+    <string name="plzrel">请输入关系</string>
+    <string name="plzremarks">请输入备注</string>
+    <string name="price">单价</string>
+    <string name="putitback">将图形放回原位</string>
+    <string name="puzzle">剪影拼图</string>
+    <string name="qdone">完成题目</string>
+    <string name="quatity">数量</string>
+    <string name="ranking">排行榜</string>
+    <string name="refresh">内容更新</string>
+    <string name="refreshUnit">分钟</string>
+    <string name="regback">  返回</string>
+    <string name="register">    注册</string>
+    <string name="registerdone">注册成功</string>
+    <string name="registerlater">  暂不注册</string>
+    <string name="relainfo">相关资料</string>
+    <string name="relationship">关系</string>
+    <string name="remarks">备注</string>
+    <string name="rememberthegreen">记住蓝色方块位置</string>
+    <string name="remembertheitem">请记下要买的物品</string>
+    <string name="remurmoney">记住你有多少钱</string>
+    <string name="replay">再玩一次</string>
+    <string name="reset">     重设</string>
+    <string name="resetd">重设难度</string>
+    <string name="resetlocation">更新位置</string>
+    <string name="rk">排名</string>
+    <string name="seekhelp">求助</string>
+    <string name="selfas">自我评估</string>
+    <string name="selfresult">结果</string>
+    <string name="selftest1">容易忘记近期发生的事情</string>
+    <string name="selftest10">出现情绪和性格的转变</string>
+    <string name="selftest101">\u2022出现情绪和性格的转变</string>
+    <string name="selftest11">\u2022容易忘记近期发生的事情</string>
+    <string name="selftest2">处理事情和解决问题的能力下降</string>
+    <string name="selftest21">\u2022处理事情和解决问题的能力下降</string>
+    <string name="selftest3">未能执行熟悉的工作 </string>
+    <string name="selftest31">\u2022未能执行熟悉的工作 </string>
+    <string name="selftest4">分辨时间及地方出现困难</string>
+    <string name="selftest41">\u2022分辨时间及地方出现困难</string>
+    <string name="selftest5">对视觉影像和/或空间感产生混淆</string>
+    <string name="selftest51">\u2022对视觉影像和/或空间感产生混淆</string>
+    <string name="selftest6">出现沟通问题</string>
+    <string name="selftest61">\u2022出现沟通问题</string>
+    <string name="selftest7">把物件错放在不适当的地方</string>
+    <string name="selftest71">\u2022把物件错放在不适当的地方</string>
+    <string name="selftest8">判断力开始衰退</string>
+    <string name="selftest81">\u2022判断力开始衰退</string>
+    <string name="selftest9">减少社交生活和工作 </string>
+    <string name="selftest91">\u2022减少社交生活和工作 </string>
+    <string name="selftopic">脑退化症患者经常出现以下情况，请选择家人有出现的状况。</string>
+    <string name="setting">设定</string>
+    <string name="sharetoemail">分享到\nEmail</string>
+    <string name="sharetofb">分享到\nFacebook</string>
+    <string name="small">小</string>
+    <string name="socialres">社区资源</string>
+    <string name="socialresGrpBtn">按钮</string>
+    <string name="socresarea">地区 ：</string>
+    <string name="socresphone">电话 ：</string>
+    <string name="socresremarks">备注 ：</string>
+    <string name="socrestarget">对像 ：</string>
+    <string name="socresweb">网站 ：</string>
+    <string name="soctipstag1">轻度认知障人士</string>
+    <string name="soctipstag2">初期脑退化患者</string>
+    <string name="soctipstag3">中期脑退化患者</string>
+    <string name="soctipstag4">晚期脑退化患者</string>
+    <string name="soctipstag5">家人</string>
+    <string name="soctipstag6">外藉佣工</string>
+    <string name="sound">声效</string>
+    <string name="soundStatus">现时选项为开，可选择声效</string>
+    <string name="soundStatus1">现时选项为</string>
+    <string name="soundStatus2">,可选择声效</string>
+    <string name="statusOff">关</string>
+    <string name="statusOn">开</string>
+    <string name="submit">     提交</string>
+    <string name="takephoto">即时拍照</string>
+    <string name="tandc">欢迎使用「脑退化一按知」流动应用程式(简称「本程式」)。本程式由赛马会耆智园(简称「耆智园」)委託开发。请细阅下列使用条款,以保障您的利益。一旦您按下「同意」键,即表示您使用本程式时,您同意并愿意遵守以下所有规定,并遵守相关法律规定。\n本服务受香港的法律及标準监管,以及按香港特别行政区的法律及标準理解,您明白并同意有关服务内容与阁下所处之国家或地区的标準及法律会有所不同。如您为无行为能力人士,应由其法定代理人为之,若为限制行为能力人士,应得法定代理人之同意。\n\n
+1. 费用\n
+		\t\t\u25E6本程式为免费程式,惟使用本程式所需之相关设备(如:行动装置及其他相关装置)及所需之费用(如:流动上网费用、通讯费用等)均由使用者自行负担。\n
+2. 註册\n
+		\t\t\u25E6在使用本程式前不必註册。如使用者选择註册,在註册过程中必须填入完整且正确的资料。\n
+3. 行为规範与义务\n
+		\t\t\u25E6使用者使用本程式时,须遵守相关法律及一切使用网际网路之相关规定。使用者同意并保證不利用本程式从事侵害他人权益或违法之行为,包括但不限於:\n
+		\t\t\t\t\u25AA侵害他人名誉、隐私权、营业秘密、商标权、著作权、专利权、其他智慧财产权及其他权利;\n
+		\t\t\t\t\u25AA冒用他人名义使用本程式;\n
+		\t\t\t\t\u25AA上载、张贴、传输或散佈任何含有病毒或任何对电脑或流动装置之软、硬体产生中断、破坏或限制功能之程式码之资料;\n
+		\t\t\t\t\u25AA从事不法交易行为或上载、张贴、公布或传送虚假不实、引人犯罪、诽谤、侮辱、具威胁性、攻击性、不雅、猥亵、不实、违反公共秩序或善良风俗或其他不法之讯息;\n
+		\t\t\t\t\u25AA滥发广告邮件、垃圾邮件、连锁信、违法之多层次传销讯息等;\n
+		\t\t\t\t\u25AA干扰或中断本程式或伺服器或连结本程式之网路,或不遵守连结至本程式之相关需求、程序、政策或规则等,包括但不限於:使用任何设备、软体或刻意规避本服务之排除自动搜寻之标头(robot exclusion headers);\n
+		\t\t\t\t\u25AA其他耆智园有正当理由认为不适当之行为。\n
+		\t\t\u25E6使用者了解本程式可能含有使数位资料得以被保护之安全元件,使用该等资料必须依本程式或提供该内容予本程式之内容提供者所定的使用规则。使用者不得试图破坏或规避任何内含於本程式之使用规则。任何未经合法授权之重製、发行、散布或公开展示本程式所提供之资料之全部或一部,均被严格禁止。\n
+4. 个人资料保护\n
+		\t\t\u25E6您在註册帐号及使用本程式时,本程式会蒐集您的个人资料,伺服器会自行记录相关路径,包括您使用连线设备的IP位址、使用时间、轨迹纪录等资料,相关资料会以不记名方式用於资料库管理、调查、统计与研究分析。有关结果将以汇总并且不能辨认到个人身份的形式用於符合相关守则的研究报告内。您的资料也可能以不能辨认到个人身份的形式被用於管理机构、团体或单位的报告内。\n
+		\t\t\u25E6本程式不会蒐集您在本程式中输入的第叁者(如:亲属)之联络资料。有关资料只记录於您的行动装置中。当您透过本程式向第叁者发送讯息,相关资料上传至伺服器後会被自动删除。\n
+		\t\t\u25E6您可自行选择是否提供资料及所提供资料的完整性,但本程式某些功能、服务或活动必须根据您所提供的资料方得使用。\n
+		\t\t\u25E6您有责任妥善保管您的行动装置的机密安全,并为一切使用该行动装置进行的授权或未获授权之恰当及不当行动负全部责任。\n
+		\t\t\u25E6耆智园会把您的个人资料储存於设有保安措施之伺服器内,以尽力保障您的个人资料。除非有法定需要,耆智园不会在未取得用户同意的情况下,以能辨认到个人身份的形式转移任何用户个人资料予其他第叁者。耆智园不会将您的个人资料、用户名称及轨迹纪录资料给予任何广告商,亦不会电邮无关的垃圾邮件给您。\n
+5. 版权声明\n
+		\t\t\u25E6本程式的所有内容,包括但不限於图像、图案、商标、设计、资料、编辑、标题、代号、声音资料、影像资料、应用和演示方法及组合皆属独有产权,并由耆智园持有所有相关版权及专属权利,受到知识产权的保护,亦即是受到香港特别行政区法律的版权法令及国际版权法规所保护,来源码仅供同业交流用途。用户有权下载部分内容作为自身使用之用,任何未经耆智园书面同意之其他用途,包括:修改、複製、分发、销售、转让、演示或其他未获耆智园书面同意之任何用途均严格禁止。耆智园保留所有法律追究权利。\n
+		\t\t\u25E6使用者同意不对本程式任何部分(包括:内容、广告、遊戏及帐号等)之使用或存取,进行重製、拷贝、出售、交易、转售或作任何商业目的之使用。\n
+6. 免责声明\n
+		\t\t\u25E6本程式之内容仅作为提供网上资讯与参考用途。本程式提供之问卷、测验及分析等资料仅以提供网上资讯为目的,不能作为自我诊断或治疗用途。本程式之内容及服务有其限制,无法取代合资格之医护人员的诊断、建议、临床评估或治疗。如果您对自己或家人的情况或本程式之资讯有疑问,请向合资格之医护人员查询。\n
+		\t\t\u25E6对於本程式所提供之各项服务,均仅依各项服务当时之功能及现况提供使用,对於使用者之特定要求或需求,包括但不限於定位服务之準确性、定位服务之準时性、定时位置报告之準确性、定时位置报告之準时性、速度、安全性、可靠性及不会断线和出错等,耆智园不负任何担保或保證责任,亦不会对任何因使用本程式而引起或与此关连或在其他方面有联繫的损失或损害负责。\n
+		\t\t\u25E6本程式之资讯基於现有资料及资源写成,并提供连结连接往本程式无法控制之外部网站或资源,以供参考及方便使用者。本程式之服务条款并不适用於该等网站。耆智园亦不会对该等网站及其内容负任何责任。您瞭解并同意自己需为使用外部网站或资源之资讯、内容或服务负全部责任。\n
+		\t\t\u25E6耆智园承诺力求内容的準确性及完整性,但不会对内容有错误或遗漏承担责任,亦不就此承担任何损失及赔偿责任。\n
+		\t\t\u25E6本程式不保證资料於传送过程均可靠且正确无误,亦不保證所储存或所传送之邮件、档案或资料之安全性、可靠性、完整性、正确性及不会断线和出错等。用户应对传送过程中或储存时之邮件、档案或资料遗失或系统损坏自负完全责任。\n
+		\t\t\u25E6因本程式所提供的服务之使用,所造成之任何直接、间接、附带、特别、衍生性、警戒性或惩罚性之损害,耆智园不负任何责任,即使为本应用程式曾明白建议之注意事项亦同。\n
+		\t\t\u25E6您同意香港特别行政区法庭对於任何关於使用条款的争论及追讨有关的审判权,任何相关法律程序均需於香港特别行政区进行。如本服务条款中任何一项失效或受到争议,亦不影响其他条款之有效性。\n
+7. 广告\n
+		\t\t\u25E6使用者在本程式中浏览到的所有广告内容、文字与图片之说明、展示样品或其他销售资讯,均由各该广告商、产品与服务的供应商所设计与提出。使用者对於广告之正确性与可信度应自行斟酌与判断。耆智园仅接受委託予以刊登,不对前述广告负担保责任。\n
+8. 系统维护及服务中断\n
+		\t\t\u25E6耆智园将尽力维护本程式之正常运作,因进行例行性维护、搬迁、更换、升级、或维修,致服务暂停或中断时,将於暂停或中断前,以公告方式告知使用者。\n
+		\t\t\u25E6耆智园有权在没有发出通知的情况下,於任何时间修改本程式之资讯、暂停或移除本程式及服务、暂时或永久移除您提供的资讯,而毋须向您或第叁者负上责任。耆智园有权在没有发出通知的情况下,於任何时间及不时修改本程式之内容及资讯,而毋须向您或第叁者负责。您同意耆智园毋需为任何用户通讯或个人化设定之时效、删除、未予储存或传递错误而向您或第叁者负责任。\n
+9. 条款变更\n
+		\t\t\u25E6耆智园或会修订、改动或更改服务条款,亦可随时停止有关条款而无需预先发出通知。使用者於任何服务条款内容与使用规範修改或变动後继续使用本服务,即视为使用者同意本服务该等修改或变动之内容。\n
+		\t\t\u25E6如果使用者违反了本服务使用规则,本服务保留随时暂时停止提供服务、或终止提供服务之权利。\n
+		\t\t\u25E6耆智园有可能变更、或停止提供服务之全部或一部,使用者不可以因此而要求赔偿或补偿。使用者同意若本程式之使用被终止或限制时,耆智园对使用者或任何第叁者均不承担责任。\n
+</string>
+    <string name="tandctop">条款及细则</string>
+    <string name="telButton">拨打电话</string>
+    <string name="tenfeatures">十个脑退化症徵兆</string>
+    <string name="textWithHtml"><![CDATA[建议你<a style="color: #08088A" href="https://www.adcarer.com/course1_info_1_5_1.php?cid=1&amp;sid=5&amp;aid=4">按此填写「长者认知退化问卷」</a>，为家人的情况作出进一步的评估。你也可以致电专为脑退化症患者提供服务的机构查询，寻求更专业的协助，例如：赛马会耆智园「记忆在线」，电话：2636 6323。]]></string>
+    <string name="thehighest">最高得分</string>
+    <string name="title_activity_callfmy">Callfmy</string>
+    <string name="title_activity_editfmyinfo">Editfmyinfo</string>
+    <string name="title_activity_endgame5">Endgame5</string>
+    <string name="title_activity_game_five">Game_five</string>
+    <string name="title_activity_game_five_2">Game_five_2</string>
+    <string name="title_activity_game_five_3">Game_five_3</string>
+    <string name="title_activity_game_four_1">Game_four_1</string>
+    <string name="title_activity_game_two_1">Game_two_1</string>
+    <string name="title_activity_gamediff">Gamediff</string>
+    <string name="title_activity_gamefive">Gamefive</string>
+    <string name="title_activity_gamemenu">Gamemenu</string>
+    <string name="title_activity_gamerabkboard">Gamerabkboard</string>
+    <string name="title_activity_gamerkmenu">Gamerkmenu</string>
+    <string name="title_activity_homepage1">Homepage1</string>
+    <string name="title_activity_knowledgedetail">Knowledgedetail</string>
+    <string name="title_activity_kowledgecenter">Kowledgecenter</string>
+    <string name="title_activity_launchpage">Launchpage</string>
+    <string name="title_activity_levelup">Levelup</string>
+    <string name="title_activity_loadingdatapage">Loadingdatapage</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_newafmymem">Newafmymem</string>
+    <string name="title_activity_reallogin">Reallogin</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_selftest">Selftest</string>
+    <string name="title_activity_selftestresult">Selftestresult</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_socres">Socres</string>
+    <string name="totalprice">总计：$</string>
+    <string name="type">类别</string>
+    <string name="ucannodrophere">不能放置于此处</string>
+    <string name="updateStatus">现时选项为开,可选择自动更新</string>
+    <string name="updateStatus1">现时选项为</string>
+    <string name="updateStatus2">,可选择自动更新</string>
+    <string name="updaterate">更新密度</string>
+    <string name="userGuide">用户指南</string>
+    <string name="userGuideLink">http://www.jccpa.org.hk/tc/facts_on_dementia/app/index.php</string>
+    <string name="username">用户名称</string>
+    <string name="usernameexcit">用户名称已存在</string>
+    <string name="whichday">请问今天是星期几？</string>
+    <string name="wrong">错</string>
+    <string name="yes">有出现</string>
+    <string name="youneedtobuy">你需要购买以下物品</string>
+    <string name="yourfmyhave">你的家人有以下脑退化症徵兆：</string>
+    <string name="zh">繁</string>
+</resources>
