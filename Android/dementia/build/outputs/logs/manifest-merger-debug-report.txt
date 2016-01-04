@@ -1,0 +1,412 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-feature#android.hardware.telephony
+ADDED from AndroidManifest.xml:6:5
+	android:required
+		ADDED from AndroidManifest.xml:6:61
+	android:name
+		ADDED from AndroidManifest.xml:6:19
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:7:2
+	android:required
+		ADDED from AndroidManifest.xml:7:64
+	android:name
+		ADDED from AndroidManifest.xml:7:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:2
+	android:name
+		ADDED from AndroidManifest.xml:8:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:11:2
+	android:name
+		ADDED from AndroidManifest.xml:11:19
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:12:2
+	android:required
+		ADDED from AndroidManifest.xml:12:70
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from AndroidManifest.xml:13:2
+	android:name
+		ADDED from AndroidManifest.xml:13:19
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:14:2
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:15:2
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:16:2
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:17:2
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:22:2
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:23:2
+	android:name
+		ADDED from AndroidManifest.xml:23:19
+uses-sdk
+ADDED from AndroidManifest.xml:24:2
+MERGED from Dementia:facebookSDK:unspecified:20:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.android.support:appcompat-v7:19.1.0:18:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:26:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:25:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:27:2
+MERGED from Dementia:facebookSDK:unspecified:24:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.android.support:appcompat-v7:19.1.0:19:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+	android:label
+		ADDED from AndroidManifest.xml:30:3
+	android:allowBackup
+		ADDED from AndroidManifest.xml:28:3
+	android:icon
+		ADDED from AndroidManifest.xml:29:3
+	android:theme
+		ADDED from AndroidManifest.xml:31:3
+activity#com.facebook.LoginActivity
+ADDED from AndroidManifest.xml:32:3
+	android:name
+		ADDED from AndroidManifest.xml:32:13
+activity#hk.org.jccpa.dementia.MainActivity
+ADDED from AndroidManifest.xml:34:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:4
+	android:label
+		ADDED from AndroidManifest.xml:36:4
+	android:name
+		ADDED from AndroidManifest.xml:35:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:38:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:40:5
+	android:name
+		ADDED from AndroidManifest.xml:40:15
+activity#hk.org.jccpa.dementia.beforelogin.Launchpage
+ADDED from AndroidManifest.xml:43:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:46:4
+	android:label
+		ADDED from AndroidManifest.xml:45:4
+	android:name
+		ADDED from AndroidManifest.xml:44:4
+activity#hk.org.jccpa.dementia.beforelogin.Loadingdatapage
+ADDED from AndroidManifest.xml:48:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:4
+	android:label
+		ADDED from AndroidManifest.xml:50:4
+	android:name
+		ADDED from AndroidManifest.xml:49:4
+activity#hk.org.jccpa.dementia.beforelogin.Loadingupdatepage
+ADDED from AndroidManifest.xml:53:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:56:4
+	android:label
+		ADDED from AndroidManifest.xml:55:4
+	android:name
+		ADDED from AndroidManifest.xml:54:4
+activity#hk.org.jccpa.dementia.homepage.Homepage1
+ADDED from AndroidManifest.xml:58:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:61:4
+	android:label
+		ADDED from AndroidManifest.xml:60:4
+	android:name
+		ADDED from AndroidManifest.xml:59:4
+activity#hk.org.jccpa.dementia.login.Login
+ADDED from AndroidManifest.xml:63:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:66:4
+	android:label
+		ADDED from AndroidManifest.xml:65:4
+	android:name
+		ADDED from AndroidManifest.xml:64:4
+activity#hk.org.jccpa.dementia.login.Reallogin
+ADDED from AndroidManifest.xml:68:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:71:4
+	android:label
+		ADDED from AndroidManifest.xml:70:4
+	android:name
+		ADDED from AndroidManifest.xml:69:4
+activity#hk.org.jccpa.dementia.login.Register
+ADDED from AndroidManifest.xml:73:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:76:4
+	android:label
+		ADDED from AndroidManifest.xml:75:4
+	android:name
+		ADDED from AndroidManifest.xml:74:4
+activity#hk.org.jccpa.dementia.map.Map
+ADDED from AndroidManifest.xml:78:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:81:4
+	android:label
+		ADDED from AndroidManifest.xml:80:4
+	android:name
+		ADDED from AndroidManifest.xml:79:4
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:83:3
+	android:value
+		ADDED from AndroidManifest.xml:85:4
+	android:name
+		ADDED from AndroidManifest.xml:84:4
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:86:3
+MERGED from com.google.android.gms:play-services:6.5.87:21:9
+	android:value
+		ADDED from AndroidManifest.xml:88:4
+	android:name
+		ADDED from AndroidManifest.xml:87:4
+activity#hk.org.jccpa.dementia.map.Callfmy
+ADDED from AndroidManifest.xml:89:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:92:4
+	android:label
+		ADDED from AndroidManifest.xml:91:4
+	android:name
+		ADDED from AndroidManifest.xml:90:4
+activity#hk.org.jccpa.dementia.map.Newafmymem
+ADDED from AndroidManifest.xml:94:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:97:4
+	android:label
+		ADDED from AndroidManifest.xml:96:4
+	android:name
+		ADDED from AndroidManifest.xml:95:4
+activity#hk.org.jccpa.dementia.map.Editfmyinfo
+ADDED from AndroidManifest.xml:99:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:102:4
+	android:label
+		ADDED from AndroidManifest.xml:101:4
+	android:name
+		ADDED from AndroidManifest.xml:100:4
+activity#hk.org.jccpa.dementia.setting.Setting
+ADDED from AndroidManifest.xml:104:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:107:4
+	android:label
+		ADDED from AndroidManifest.xml:106:4
+	android:name
+		ADDED from AndroidManifest.xml:105:4
+activity#hk.org.jccpa.dementia.Socres
+ADDED from AndroidManifest.xml:109:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:112:4
+	android:label
+		ADDED from AndroidManifest.xml:111:4
+	android:name
+		ADDED from AndroidManifest.xml:110:4
+activity#hk.org.jccpa.dementia.Selftest
+ADDED from AndroidManifest.xml:114:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:117:4
+	android:label
+		ADDED from AndroidManifest.xml:116:4
+	android:name
+		ADDED from AndroidManifest.xml:115:4
+activity#hk.org.jccpa.dementia.Selftestresult
+ADDED from AndroidManifest.xml:119:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:122:4
+	android:label
+		ADDED from AndroidManifest.xml:121:4
+	android:name
+		ADDED from AndroidManifest.xml:120:4
+activity#hk.org.jccpa.dementia.knowledge.Kowledgecenter
+ADDED from AndroidManifest.xml:124:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:127:4
+	android:label
+		ADDED from AndroidManifest.xml:126:4
+	android:name
+		ADDED from AndroidManifest.xml:125:4
+activity#hk.org.jccpa.dementia.Knowledgedetail
+ADDED from AndroidManifest.xml:129:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:132:4
+	android:label
+		ADDED from AndroidManifest.xml:131:4
+	android:name
+		ADDED from AndroidManifest.xml:130:4
+activity#hk.org.jccpa.dementia.game.Gamemenu
+ADDED from AndroidManifest.xml:134:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:137:4
+	android:label
+		ADDED from AndroidManifest.xml:136:4
+	android:name
+		ADDED from AndroidManifest.xml:135:4
+activity#hk.org.jccpa.dementia.game.Gamerkmenu
+ADDED from AndroidManifest.xml:139:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:142:4
+	android:label
+		ADDED from AndroidManifest.xml:141:4
+	android:name
+		ADDED from AndroidManifest.xml:140:4
+activity#hk.org.jccpa.dementia.game.Gamerabkboard
+ADDED from AndroidManifest.xml:144:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:147:4
+	android:label
+		ADDED from AndroidManifest.xml:146:4
+	android:name
+		ADDED from AndroidManifest.xml:145:4
+activity#hk.org.jccpa.dementia.Gamefive
+ADDED from AndroidManifest.xml:149:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:152:4
+	android:label
+		ADDED from AndroidManifest.xml:151:4
+	android:name
+		ADDED from AndroidManifest.xml:150:4
+activity#hk.org.jccpa.dementia.game.Gamediff
+ADDED from AndroidManifest.xml:154:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:157:4
+	android:label
+		ADDED from AndroidManifest.xml:156:4
+	android:name
+		ADDED from AndroidManifest.xml:155:4
+activity#hk.org.jccpa.dementia.Game_five
+ADDED from AndroidManifest.xml:159:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:162:4
+	android:label
+		ADDED from AndroidManifest.xml:161:4
+	android:name
+		ADDED from AndroidManifest.xml:160:4
+activity#hk.org.jccpa.dementia.game5.Game_five_2
+ADDED from AndroidManifest.xml:164:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:167:4
+	android:label
+		ADDED from AndroidManifest.xml:166:4
+	android:name
+		ADDED from AndroidManifest.xml:165:4
+activity#hk.org.jccpa.dementia.game5.Game_five_3
+ADDED from AndroidManifest.xml:169:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:172:4
+	android:label
+		ADDED from AndroidManifest.xml:171:4
+	android:name
+		ADDED from AndroidManifest.xml:170:4
+activity#hk.org.jccpa.dementia.game2.Game_two_1
+ADDED from AndroidManifest.xml:174:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:177:4
+	android:label
+		ADDED from AndroidManifest.xml:176:4
+	android:name
+		ADDED from AndroidManifest.xml:175:4
+activity#hk.org.jccpa.dementia.game.Levelup
+ADDED from AndroidManifest.xml:179:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:182:4
+	android:label
+		ADDED from AndroidManifest.xml:181:4
+	android:name
+		ADDED from AndroidManifest.xml:180:4
+activity#hk.org.jccpa.dementia.game5.Endgame5
+ADDED from AndroidManifest.xml:184:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:187:4
+	android:label
+		ADDED from AndroidManifest.xml:186:4
+	android:name
+		ADDED from AndroidManifest.xml:185:4
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:189:3
+	android:value
+		ADDED from AndroidManifest.xml:191:4
+	android:name
+		ADDED from AndroidManifest.xml:190:4
+activity#hk.org.jccpa.dementia.Fbshare
+ADDED from AndroidManifest.xml:192:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:195:4
+	android:label
+		ADDED from AndroidManifest.xml:194:4
+	android:name
+		ADDED from AndroidManifest.xml:193:4
+provider#com.facebook.NativeAppCallContentProvider
+ADDED from AndroidManifest.xml:197:3
+	android:authorities
+		ADDED from AndroidManifest.xml:199:4
+	android:exported
+		ADDED from AndroidManifest.xml:200:4
+	android:name
+		ADDED from AndroidManifest.xml:198:4
+activity#hk.org.jccpa.dementia.game4.Game_four_1
+ADDED from AndroidManifest.xml:201:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:204:4
+	android:label
+		ADDED from AndroidManifest.xml:203:4
+	android:name
+		ADDED from AndroidManifest.xml:202:4
+receiver#hk.org.jccpa.dementia.BootCompletedIntentReceiver
+ADDED from AndroidManifest.xml:206:3
+	android:name
+		ADDED from AndroidManifest.xml:206:13
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:207:4
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:208:5
+	android:name
+		ADDED from AndroidManifest.xml:208:13
+service#hk.org.jccpa.dementia.map.MyService
+ADDED from AndroidManifest.xml:211:3
+	android:name
+		ADDED from AndroidManifest.xml:211:12
