@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--知識寶庫-->
+        <scene sceneID="QzR-6f-0qf">
+            <objects>
+                <viewController storyboardIdentifier="KnowledgeListViewController" id="pBK-8v-E0o" customClass="KnowledgeListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h0U-dT-fvj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dvy-xz-r6m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ij-aJ-KDo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="CXI-xe-npE">
+                                <rect key="frame" x="0.0" y="20" width="600" height="516"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="KnowledgeCell" id="9KN-nR-jq6" customClass="KnowledgeCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9KN-nR-jq6" id="d4a-oY-xb0">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甚麼是腦退化症" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Mn7-NV-peq">
+                                                    <rect key="frame" x="8" y="13" width="529" height="23"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Button_Enter_From_List" translatesAutoresizingMaskIntoConstraints="NO" id="Bkw-Ya-uc1">
+                                                    <rect key="frame" x="545" y="3" width="47" height="44"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <accessibilityTraits key="traits" none="YES" button="YES"/>
+                                                    </accessibility>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="Bkw-Ya-uc1" secondAttribute="centerY" constant="-0.5" id="2cn-su-N1O"/>
+                                                <constraint firstAttribute="bottom" secondItem="Mn7-NV-peq" secondAttribute="bottom" constant="13" id="MtC-fY-1zs"/>
+                                                <constraint firstItem="Mn7-NV-peq" firstAttribute="top" secondItem="d4a-oY-xb0" secondAttribute="top" constant="13" id="QJ1-Dh-li8"/>
+                                                <constraint firstItem="Mn7-NV-peq" firstAttribute="leading" secondItem="d4a-oY-xb0" secondAttribute="leading" constant="8" id="XTD-Ks-tET"/>
+                                                <constraint firstItem="Bkw-Ya-uc1" firstAttribute="trailing" secondItem="d4a-oY-xb0" secondAttribute="trailingMargin" id="YdC-RB-iNF"/>
+                                                <constraint firstAttribute="trailing" secondItem="Mn7-NV-peq" secondAttribute="trailing" constant="63" id="r3e-HU-H5j"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="btnKnowledgeItem" destination="Bkw-Ya-uc1" id="MZF-AS-DXs"/>
+                                            <outlet property="titleLbl" destination="Mn7-NV-peq" id="d2S-bn-thn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="pBK-8v-E0o" id="MD7-Ep-Ltt"/>
+                                    <outlet property="delegate" destination="pBK-8v-E0o" id="NSj-43-rCM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CXI-xe-npE" firstAttribute="top" secondItem="h0U-dT-fvj" secondAttribute="bottom" constant="20" id="leo-46-guy"/>
+                            <constraint firstItem="Dvy-xz-r6m" firstAttribute="top" secondItem="CXI-xe-npE" secondAttribute="bottom" id="u5b-DA-NZi"/>
+                            <constraint firstAttribute="trailing" secondItem="CXI-xe-npE" secondAttribute="trailing" id="ufd-Ao-Xpj"/>
+                            <constraint firstItem="CXI-xe-npE" firstAttribute="leading" secondItem="9ij-aJ-KDo" secondAttribute="leading" id="wyc-ha-Uan"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="知識寶庫" id="7ue-N6-Ovi"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="knowledgeTableView" destination="CXI-xe-npE" id="fLu-e8-Coa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QqJ-jT-toe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="427" y="431"/>
+        </scene>
+        <!--知識寶庫-->
+        <scene sceneID="nbc-ou-zYp">
+            <objects>
+                <viewController storyboardIdentifier="KnowledgeDetailViewController" id="nMw-ZJ-Rff" customClass="KnowledgeDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JtM-sc-1X4"/>
+                        <viewControllerLayoutGuide type="bottom" id="gJM-9x-dZw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6MB-uP-KgT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="知識寶庫" id="imX-kw-9G9"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t80-tQ-ltd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1189" y="431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Button_Enter_From_List" width="47" height="44"/>
+    </resources>
+</document>
