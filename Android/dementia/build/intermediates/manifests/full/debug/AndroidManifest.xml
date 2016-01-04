@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hk.org.jccpa.dementia"
+    android:versionCode="7"
+    android:versionName="1.0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:required="false" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+     The following two permissions are not required to use
+     Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.facebook.LoginActivity" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.beforelogin.Launchpage"
+            android:label="@string/title_activity_launchpage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.beforelogin.Loadingdatapage"
+            android:label="@string/title_activity_loadingdatapage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.beforelogin.Loadingupdatepage"
+            android:label="@string/title_activity_loadingdatapage"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.homepage.Homepage1"
+            android:label="@string/title_activity_homepage1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.login.Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.login.Reallogin"
+            android:label="@string/title_activity_reallogin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.login.Register"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.map.Map"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDLYHdQD8VK6MBdRFv_sms6lo89hTq_U-A" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="hk.org.jccpa.dementia.map.Callfmy"
+            android:label="@string/title_activity_callfmy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.map.Newafmymem"
+            android:label="@string/title_activity_newafmymem"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.map.Editfmyinfo"
+            android:label="@string/title_activity_editfmyinfo"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.setting.Setting"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Socres"
+            android:label="@string/title_activity_socres"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Selftest"
+            android:label="@string/title_activity_selftest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Selftestresult"
+            android:label="@string/title_activity_selftestresult"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.knowledge.Kowledgecenter"
+            android:label="@string/title_activity_kowledgecenter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Knowledgedetail"
+            android:label="@string/title_activity_knowledgedetail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game.Gamemenu"
+            android:label="@string/title_activity_gamemenu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game.Gamerkmenu"
+            android:label="@string/title_activity_gamerkmenu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game.Gamerabkboard"
+            android:label="@string/title_activity_gamerabkboard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Gamefive"
+            android:label="@string/title_activity_gamefive"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game.Gamediff"
+            android:label="@string/title_activity_gamediff"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.Game_five"
+            android:label="@string/title_activity_game_five"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game5.Game_five_2"
+            android:label="@string/title_activity_game_five_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game5.Game_five_3"
+            android:label="@string/title_activity_game_five_3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game2.Game_two_1"
+            android:label="@string/title_activity_game_two_1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game.Levelup"
+            android:label="@string/title_activity_levelup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="hk.org.jccpa.dementia.game5.Endgame5"
+            android:label="@string/title_activity_endgame5"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="hk.org.jccpa.dementia.Fbshare"
+            android:label="@string/title_activity_endgame5"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <provider
+            android:name="com.facebook.NativeAppCallContentProvider"
+            android:authorities="com.facebook.app.NativeAppCallContentProvider1394052324188820"
+            android:exported="true" />
+
+        <activity
+            android:name="hk.org.jccpa.dementia.game4.Game_four_1"
+            android:label="@string/title_activity_game_four_1"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="hk.org.jccpa.dementia.BootCompletedIntentReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="hk.org.jccpa.dementia.map.MyService" />
+    </application>
+
+</manifest>
