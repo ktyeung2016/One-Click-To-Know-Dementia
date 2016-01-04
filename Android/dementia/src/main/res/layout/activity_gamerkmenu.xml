@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="2" >
+		<ImageView
+			android:id="@+id/qweqeqe"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentBottom="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/actionbar" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true" >
+			<ImageButton
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/backButton"/>
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="3"
+				android:gravity="center"
+				android:text="@string/braingame"
+				android:textColor="#FFFFFF"
+				android:textSize="?attr/font_small"
+				android:textStyle="bold" />
+			<ImageButton
+				android:id="@+id/menu"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/menuButton"/>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:orientation="vertical" >
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:text="@string/ranking"
+				android:textColor="#03736B"
+				android:textSize="?attr/font_large"
+				android:textStyle="bold" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="10"
+			android:orientation="vertical"
+			android:paddingLeft="15dp"
+			android:paddingRight="15dp" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp" >
+				<Button
+					android:id="@+id/buyer"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
+					android:background="@drawable/btn_rk_buyer"
+					android:text="@string/buyer"
+					android:textSize="30dp" />
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center" >
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/thehighest"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/marks1"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="0"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/mark"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp" >
+				<Button
+					android:id="@+id/puzzle"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
+					android:background="@drawable/btn_rk_puzzle"
+					android:text="@string/puzzle"
+					android:textSize="30dp" />
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center" >
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/thehighest"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/marks2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="0"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/mark"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp" >
+				<Button
+					android:id="@+id/findroot"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
+					android:background="@drawable/btn_rk_findroot"
+					android:text="@string/findroot"
+					android:textSize="30dp" />
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center" >
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/thehighest"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/marks3"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="0"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/mark"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp" >
+				<Button
+					android:id="@+id/memory"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
+					android:background="@drawable/btn_rk_memory"
+					android:text="@string/memory"
+					android:textSize="30dp" />
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center" >
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/thehighest"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/marks4"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="0"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/mark"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp" >
+				<Button
+					android:id="@+id/mindcal"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
+					android:background="@drawable/btn_rk_mindcal"
+					android:text="@string/mindcal"
+					android:textSize="30dp" />
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center" >
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/thehighest"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/marks5"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="0"
+						android:textSize="?attr/font_small" />
+					<TextView
+						android:id="@+id/textView2"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/mark"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="0.5"
+			android:orientation="vertical" >
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

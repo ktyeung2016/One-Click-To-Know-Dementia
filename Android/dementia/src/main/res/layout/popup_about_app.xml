@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg"
+	android:orientation="vertical" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:paddingTop="5dp" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="2"
+			android:gravity="right"
+			android:orientation="vertical"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp" >
+			<ImageView
+				android:id="@+id/close"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/btn_close"
+                android:contentDescription="@string/close"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="20"
+			android:orientation="vertical"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp" >
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="2"
+				android:background="#03766D"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:text="@string/aboutApp"
+				android:textColor="#ffffff"
+				android:textSize="?attr/font_medium" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="18"
+				android:background="@drawable/bg_text"
+				android:orientation="vertical" >
+				<WebView
+					android:id="@+id/web"
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+                    android:layout_weight="18">
+				</WebView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5" >
+                </LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

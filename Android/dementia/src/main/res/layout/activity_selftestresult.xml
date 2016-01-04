@@ -1,0 +1,300 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="2" >
+		<ImageView
+			android:id="@+id/qweqeqe"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentBottom="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/actionbar" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true" >
+			<ImageButton
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/backButton"/>
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="3"
+				android:gravity="center"
+				android:text="@string/selfas"
+				android:textColor="#FFFFFF"
+				android:textSize="?attr/font_small"
+				android:textStyle="bold" />
+			<ImageButton
+				android:id="@+id/menu"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/menuButton"/>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="2"
+			android:orientation="vertical" >
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:text="@string/tenfeatures"
+				android:textColor="#03736B"
+				android:textSize="?attr/font_xlarge"
+				android:textStyle="bold" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="2"
+			android:background="#ffffff"
+			android:gravity="center"
+			android:text="@string/selfresult"
+			android:textColor="#A13155"
+			android:textSize="?attr/font_large"
+			android:textStyle="bold" />
+		<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="14"
+			android:background="#ffffff"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="#ffffff"
+				android:orientation="vertical"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="vertical"
+					android:paddingLeft="5dp"
+					android:paddingRight="5dp" >
+					<LinearLayout
+						android:id="@+id/flist"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/selftestresultboard"
+						android:orientation="vertical"
+						android:paddingBottom="5dp"
+						android:paddingLeft="25dp"
+						android:paddingRight="20dp"
+						android:paddingTop="5dp" >
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text=""
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/yourfmyhave"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f1"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest11"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f2"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest21"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f3"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest31"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f4"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest41"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f5"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest51"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f6"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest61"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f7"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest71"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f8"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest81"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f9"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest91"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/f10"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text="@string/selftest101"
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+						<TextView
+							android:id="@+id/textView3"
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:text=""
+							android:textColor="#372707"
+							android:textSize="?attr/font_xsmall"
+							android:textStyle="bold" />
+					</LinearLayout>
+					<WebView
+                        android:id="@+id/result"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text="@string/textWithHtml"
+                        android:textSize="?attr/font_medium"></WebView>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="#ffffff"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:background="@drawable/btn_yellow">
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="13"
+                    android:gravity="center"
+                    android:text="@string/memoryonline"
+                    android:textSize="?attr/font_xsmall"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/btncalllowerpart"
+                    android:contentDescription="@string/telButton" />
+            </LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2.5"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:background="#BFDA44"
+			android:paddingTop="10dp" >
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="5" >
+			</LinearLayout>
+			<Button
+				android:id="@+id/playag"
+				android:layout_width="0dp"
+				android:layout_height="46dp"
+				android:layout_weight="4.02"
+				android:background="@drawable/btn_refresh"
+				android:paddingLeft="20dp"
+				android:text="@string/playag"
+				android:textColor="#ffffff" />
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="5" >
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

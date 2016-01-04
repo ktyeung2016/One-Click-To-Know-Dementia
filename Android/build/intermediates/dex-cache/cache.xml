@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\support-annotations-21.0.0-942a00eae9e94bbf9436a50907fead2fcde562a3.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\classes-aea36eb4174253ccfed89e9d09e4b799a942600b.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\internal_impl-21.0.0-7a4528aa996c10b8feff7375d7e6d44048f8222e.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\classes-0c041f18008f53caa3d58597141fefb95f74022b.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\universal-image-loader-1.9.3-628256d8331146b2eb6f42309a81fd78d617154e.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\Dementia\facebookSDK\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d2fa13f76de60830e0ee40a9f958cd6995ad45e">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\classes-d877663658ee86d7a5e2f70748d2cfca016193f3.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\libs\simple-side-drawer2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="52f07408a468d28aadb781d66bb5af31834021ec">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\simple-side-drawer2-a0c7ba102888a2a3426f794d8897d846766b100c.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\classes-151317d507456f571b7f17f776b1ad4311aa9373.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\library\build\libs\library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1a696561b810fa954e5be9b77267b0bc6d3ff81">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\library-c0abf2a84f31602d7d7d7e066b32145fad6dfaef.jar" />
+    </item>
+    <item
+        jar="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\exploded-aar\Dementia\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="D:\proj\jccpa\source_code\AndroidStudio\Dementia\dementia\build\intermediates\pre-dexed\release\bolts-android-1.1.2-1f7bbb2ecbcbc7bdec7723359bba6869f14f8e8b.jar" />
+    </item>
+
+</items>

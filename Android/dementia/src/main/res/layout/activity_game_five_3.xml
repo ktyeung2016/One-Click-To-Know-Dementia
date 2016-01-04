@@ -1,0 +1,423 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="2" >
+			<ImageView
+				android:id="@+id/qweqeqe"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:scaleType="fitXY"
+				android:src="@drawable/actionbar" />
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentRight="true" >
+				<ImageButton
+					android:id="@+id/back"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/backButton"/>
+				<TextView
+					android:id="@+id/title"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="3"
+					android:gravity="center"
+					android:text="@string/mindcal"
+					android:textColor="#FFFFFF"
+					android:textSize="?attr/font_small"
+					android:textStyle="bold" />
+				<ImageButton
+					android:id="@+id/menu"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@null"
+					android:src="@null"
+                    android:contentDescription="@string/menuButton"/>
+			</LinearLayout>
+		</RelativeLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="20"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="19"
+				android:orientation="vertical" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="0.5"
+					android:orientation="vertical"
+					android:paddingLeft="5dp" >
+					<TextView
+						android:id="@+id/qnum2"
+						android:layout_width="60dp"
+						android:layout_height="match_parent"
+						android:background="@drawable/game_numberofq"
+						android:gravity="center"
+						android:text="20"
+						android:textColor="#ffffff" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1.5"
+					android:orientation="vertical" >
+					<TextView
+						android:id="@+id/textView3"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:gravity="center"
+						android:text="@string/aftershpping"
+						android:textSize="?attr/font_xlarge" />
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="5.5"
+					android:background="@drawable/game_cal_bg"
+					android:orientation="vertical"
+					android:paddingLeft="20dp"
+					android:paddingRight="20dp" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:orientation="vertical" >
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="3"
+						android:background="@drawable/bg_gamemarksboard"
+						android:orientation="vertical" >
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="0.7"
+							android:gravity="center"
+							android:orientation="vertical" >
+							<TextView
+								android:id="@+id/textView2"
+								android:layout_width="match_parent"
+								android:layout_height="0dp"
+								android:layout_weight="1.5"
+								android:gravity="center"
+								android:text="@string/itemtotalprice"
+								android:textSize="?attr/font_large" />
+							<TextView
+								android:id="@+id/total"
+								android:layout_width="match_parent"
+								android:layout_height="0dp"
+								android:layout_weight="1"
+								android:gravity="center"
+								android:text="$36"
+								android:textSize="?attr/font_medium" />
+						</LinearLayout>
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="0dp"
+							android:layout_weight="1"
+							android:orientation="vertical"
+							android:paddingBottom="20dp"
+							android:paddingLeft="70dp"
+							android:paddingRight="70dp"
+							android:paddingTop="20dp" >
+							<TextView
+								android:id="@+id/textView4"
+								android:layout_width="match_parent"
+								android:layout_height="0dp"
+								android:layout_weight="1"
+								android:gravity="center"
+								android:text="@string/nowstillmoney"
+								android:textSize="?attr/font_small" />
+							<LinearLayout
+								android:layout_width="match_parent"
+								android:layout_height="0dp"
+								android:layout_weight="1" >
+								<TextView
+									android:id="@+id/textView5"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="$" />
+								<EditText
+									android:id="@+id/totalprice"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:background="@drawable/bg_game_cal_input"
+									android:ems="10"
+									android:inputType="numberDecimal"
+									android:paddingLeft="5dp"
+									android:paddingRight="5dp" >
+									<requestFocus />
+								</EditText>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						android:layout_weight="2"
+						android:gravity="center"
+						android:orientation="vertical"
+						android:paddingBottom="10dp"
+						android:paddingTop="10dp" >
+						<Button
+							android:id="@+id/enter"
+							android:layout_width="wrap_content"
+							android:layout_height="50dp"
+							android:background="@drawable/btn"
+							android:text="@string/enter"
+							android:textColor="#ffffff" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:background="#BFDA44"
+					android:paddingTop="10dp" >
+					<LinearLayout
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="1" >
+						<ImageView
+							android:id="@+id/tips"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_notice" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="3.98" >
+						<ImageView
+							android:id="@+id/h5"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_heart" />
+						<ImageView
+							android:id="@+id/h4"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_heart" />
+						<ImageView
+							android:id="@+id/h3"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_heart" />
+						<ImageView
+							android:id="@+id/h2"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_heart" />
+						<ImageView
+							android:id="@+id/h1"
+							android:layout_width="0dp"
+							android:layout_height="match_parent"
+							android:layout_weight="1"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_heart" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="1" >
+						<ImageView
+							android:id="@+id/demo"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:scaleType="centerInside"
+							android:src="@drawable/icon_dome" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent" >
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/levelup"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:visibility="gone" >
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="2" >
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="20"
+			android:orientation="vertical" >
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:alpha="0.9"
+				android:background="#ffffff" >
+			</RelativeLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				tools:context="${packageName}.${activityClass}" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="9"
+					android:gravity="center"
+					android:orientation="vertical"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/bg_gamemarksboard"
+						android:gravity="center"
+						android:orientation="vertical" >
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="@string/cong"
+							android:textColor="#A13155"
+							android:textSize="50sp" />
+						<TextView
+							android:id="@+id/congmsg"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="TextView"
+							android:textSize="?attr/font_xsmall" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:orientation="vertical"
+					android:paddingBottom="5dp" >
+					<Button
+						android:id="@+id/enter"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/btn"
+						android:text="@string/enter"
+						android:textColor="#ffffff"
+						android:textSize="?attr/font_small" />
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/tipslayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:visibility="gone" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="1"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2" >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.00"
+                        android:orientation="vertical" >
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/moneylogo" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.00"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/qwe"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.00"
+                            android:gravity="bottom|left"
+                            android:text="@string/nowmoney"
+                            android:textSize="?attr/font_large" />
+                        <TextView
+                            android:id="@+id/nowmoney"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.00"
+                            android:text="$100元"
+                            android:textSize="?attr/font_large" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn"
+                        android:text="@string/enter"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

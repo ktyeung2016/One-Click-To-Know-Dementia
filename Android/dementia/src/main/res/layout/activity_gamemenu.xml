@@ -1,0 +1,208 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="2" >
+		<ImageView
+			android:id="@+id/qweqeqe"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentBottom="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/actionbar" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true" >
+			<ImageButton
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/backButton"/>
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="3"
+				android:gravity="center"
+				android:text="@string/braingame"
+				android:textColor="#FFFFFF"
+				android:textSize="?attr/font_small"
+				android:textStyle="bold" />
+			<ImageButton
+				android:id="@+id/menu"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/menuButton"/>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="6"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingTop="10dp" >
+				<Button
+					android:id="@+id/buyer"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:background="@drawable/btn_buyer"
+					android:gravity="center"
+					android:paddingLeft="40dp"
+					android:text="@string/buyer"
+					android:textColor="#5B510A"
+					android:textSize="30dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingTop="10dp" >
+				<Button
+					android:id="@+id/puzzle"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:background="@drawable/btn_cutshadow"
+					android:paddingLeft="40dp"
+					android:text="@string/puzzle"
+					android:textColor="#5B510A"
+					android:textSize="30dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingTop="10dp" >
+				<Button
+					android:id="@+id/findroot"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:background="@drawable/btn_findroot"
+					android:paddingLeft="40dp"
+					android:text="@string/findroot"
+					android:textColor="#5B510A"
+					android:textSize="30dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingTop="10dp" >
+				<Button
+					android:id="@+id/memory"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:background="@drawable/btn_remember"
+					android:paddingLeft="40dp"
+					android:text="@string/memory"
+					android:textColor="#5B510A"
+					android:textSize="30dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="10dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingTop="10dp" >
+				<Button
+					android:id="@+id/mindcal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:background="@drawable/btn_cal"
+					android:paddingLeft="40dp"
+					android:text="@string/mindcal"
+					android:textColor="#5B510A"
+					android:textSize="30dp" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="1"
+				android:background="#BFDA44"
+				android:paddingTop="10dp" >
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+				<Button
+					android:id="@+id/delete"
+					android:layout_width="0dp"
+					android:layout_height="46dp"
+					android:layout_weight="3.98"
+					android:background="@drawable/btn_refresh"
+					android:paddingLeft="35dp"
+					android:text="@string/resetd"
+					android:textColor="#ffffff" />
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+				<Button
+					android:id="@+id/rank"
+					android:layout_width="0dp"
+					android:layout_height="46dp"
+					android:layout_weight="4.02"
+					android:background="@drawable/btn_ranking_list"
+					android:paddingLeft="20dp"
+					android:text="@string/ranking"
+					android:textColor="#ffffff" />
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1" >
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

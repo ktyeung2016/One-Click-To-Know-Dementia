@@ -1,0 +1,258 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/holepage"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_weight="2" >
+		<ImageView
+			android:id="@+id/qweqeqe"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentBottom="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/actionbar" />
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_alignParentRight="true" >
+			<ImageButton
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/backButton"/>
+			<TextView
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="3"
+				android:gravity="center"
+				android:text="@string/socialres"
+				android:textColor="#FFFFFF"
+				android:textSize="?attr/font_small"
+				android:textStyle="bold" />
+			<ImageButton
+				android:id="@+id/menu"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@null"
+				android:src="@null"
+                android:contentDescription="@string/menuButton"/>
+		</LinearLayout>
+	</RelativeLayout>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="20"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:paddingTop="5dp" >
+				<TextView
+					android:id="@+id/org"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="TextView"
+					android:textColor="#217069"
+					android:textSize="?attr/font_xxlarge"
+					android:textStyle="bold" />
+				<TextView
+					android:id="@+id/s1name"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="TextView"
+					android:textSize="?attr/font_large" />
+				<TextView
+					android:id="@+id/s2name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="TextView"
+					android:textSize="?attr/font_large" />
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#ffffff"
+				android:orientation="vertical"
+				android:paddingTop="5dp" >
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical" >
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="#FBDC9C">
+						<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:text="@string/socresarea"
+							android:textSize="?attr/font_small" />
+						<TextView
+							android:id="@+id/area"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="3"
+							android:text="TextView"
+							android:textSize="?attr/font_small" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp">
+						<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:text="@string/socrestarget"
+							android:textSize="?attr/font_small" />
+						<LinearLayout
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="3"
+							android:orientation="vertical" >
+							<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent" >
+								<ImageView
+									android:id="@+id/lv1"
+									android:layout_width="30dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvone"
+                                    android:contentDescription="@string/soctipstag1"/>
+								<ImageView
+									android:id="@+id/lv2"
+									android:layout_width="30dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvtwo"
+                                    android:contentDescription="@string/soctipstag2" />
+								<ImageView
+									android:id="@+id/lv3"
+									android:layout_width="30dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvthree"
+                                    android:contentDescription="@string/soctipstag3" />
+								<ImageView
+									android:id="@+id/lv4"
+									android:layout_width="30dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvfour"
+                                    android:contentDescription="@string/soctipstag4" />
+							</LinearLayout>
+							<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="match_parent" >
+								<ImageView
+									android:id="@+id/lvfmy"
+									android:layout_width="40dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvfmy"
+                                    android:contentDescription="@string/soctipstag5" />
+								<ImageView
+									android:id="@+id/lvhelper"
+									android:layout_width="40dp"
+									android:layout_height="30dp"
+									android:src="@drawable/lvhelper"
+                                    android:contentDescription="@string/soctipstag6" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="#FBDC9C">
+						<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:text="@string/socresphone"
+							android:textSize="?attr/font_small" />
+						<LinearLayout
+							android:id="@+id/phonelayout"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="3"
+							android:paddingBottom="5dp" >
+							<TextView
+								android:id="@+id/phone"
+								android:layout_width="0dp"
+								android:layout_height="match_parent"
+								android:layout_weight="2"
+								android:gravity="center"
+								android:text="TextView"
+								android:textSize="?attr/font_small" />
+							<ImageView
+								android:id="@+id/imageView1"
+								android:layout_width="0dp"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:src="@drawable/btncalllowerpart"
+                                android:contentDescription="@string/telButton" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp">
+						<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:text="@string/socresweb"
+							android:textSize="?attr/font_small" />
+						<Button
+							android:id="@+id/web"
+							android:layout_width="0dp"
+							android:layout_height="50dp"
+							android:layout_weight="3"
+							android:background="@drawable/btn_gosite"
+							android:text="@string/gosite"
+							android:textColor="#ffffff" />
+					</LinearLayout>
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="#FBDC9C">
+						<TextView
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="1.5"
+							android:text="@string/socresremarks"
+							android:textSize="?attr/font_small" />
+						<TextView
+							android:id="@+id/remark"
+							android:layout_width="0dp"
+							android:layout_height="wrap_content"
+							android:layout_weight="3"
+							android:text="TextView"
+							android:textSize="?attr/font_small" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
